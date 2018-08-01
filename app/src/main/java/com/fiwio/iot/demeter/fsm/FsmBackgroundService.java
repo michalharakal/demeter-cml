@@ -1,0 +1,86 @@
+package com.fiwio.iot.demeter.fsm;
+
+import android.app.IntentService;
+import android.content.Intent;
+import android.os.IBinder;
+import android.util.Log;
+
+import com.fiwio.iot.demeter.DemeterApplication;
+import com.fiwio.iot.demeter.domain.features.configuration.ConfigurationProvider;
+import com.fiwio.iot.demeter.domain.features.fsm.GardenFiniteStateMachine;
+import com.fiwio.iot.demeter.domain.features.io.BranchesInteractorsProvider;
+import com.fiwio.iot.demeter.events.FireFsmEvent;
+import com.fiwio.iot.demeter.events.IEventBus;
+import com.fiwio.iot.demeter.hw.features.io.DigitalPins;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
+public class FsmBackgroundService extends IntentService {
+  private static final String LOG_TAG = FsmBackgroundService.class.getSimpleName();
+
+  private Thread backgroundJob;
+
+  private Object LOCK = new Object();
+
+  private DigitalPins demeter;
+  private IEventBus eventBus;
+  private GardenFiniteStateMachine fsm;
+
+  @Override
+  public IBinder onBind(final Intent intent) {
+    return null;
+  }
+
+  @Override
+  public void onCreate() {
+    super.onCreate();
+
+    demeter = ((DemeterApplication) getApplication()).getDemeter();
+
+    fsm = ((DemeterApplication) getApplication()).getFsm();
+
+    eventBus = ((DemeterApplication) getApplication()).getEventBus();
+
+    BranchesInteractorsProvider interactorsProvider =
+        ((DemeterApplication) getApplication()).getBranchesInteractorProvider();
+    ConfigurationProvider configurationProvider =
+        ((DemeterApplication) getApplication()).getConfigurationProvider();
+    backgroundJob = FsmRunnable.getInstance(fsm, configurationProvider, interactorsProvider);
+
+    backgroundJob.start();
+
+    EventBus.getDefault().register(this);
+    Log.d(LOG_TAG, "Eventbus registered");
+  }
+
+  @Override
+  public void onDestroy() {
+    super.onDestroy();
+    eventBus.unregister(this);
+  }
+
+  @Subscribe(threadMode = ThreadMode.BACKGROUND)
+  public void onFireFsmEvent(FireFsmEvent event) {
+
+    fsm.trigger(event.fmsName, event.command);
+  }
+
+  /**
+   * Creates an IntentService. Invoked by your subclass's constructor.
+   *
+   * @param name Used to name the worker thread, important only for debugging.
+   */
+  public FsmBackgroundService(String name) {
+    super(name);
+  }
+
+  /** Creates an IntentService. Required by AndroidManifest.xml */
+  public FsmBackgroundService() {
+    super(LOG_TAG);
+  }
+
+  @Override
+  protected void onHandleIntent(Intent intent) {}
+}

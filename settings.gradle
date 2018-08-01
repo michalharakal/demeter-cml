@@ -1,0 +1,1 @@
+include ':client-api', ':data', ':domain', ':app', ':local-storage', ':pifacedigital2', ':hw-gateway'

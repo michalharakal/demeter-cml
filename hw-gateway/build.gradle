@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration["androidCompileSdkVersion"]
+    buildToolsVersion globalConfiguration["androidBuildToolsVersion"]
+
+    defaultConfig {
+        minSdkVersion globalConfiguration["androidMinSdkVersion"]
+        targetSdkVersion globalConfiguration["androidTargetSdkVersion"]
+        multiDexEnabled = false
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    def hwDependencies = rootProject.ext.hwDependencies
+
+    compileOnly cacheDependencies.javaxAnnotation
+
+    implementation project(':pifacedigital2')
+    implementation (project(':data')) {
+        // Exclude joda-time from this dependency to remove the errors.
+        exclude module: 'joda-time'
+    }
+
+    compileOnly 'com.google.android.things:androidthings:1.0'
+
+    implementation hwDependencies.kotlin
+    implementation hwDependencies.javaxInject
+    implementation hwDependencies.rxKotlin
+    implementation hwDependencies.gson
+    implementation hwDependencies.kotlinLogging
+}

@@ -1,0 +1,45 @@
+apply plugin: 'java'
+apply plugin: "org.detoeuf.swagger-codegen"
+
+swagger {
+    //inputSpec = 'https://dev.dukecon.org/jenkins/job/dukecon_server_develop/ws/impl/target/swagger-ui/swagger.json'
+    inputSpec = "$project.rootDir/specs/swagger.json"
+
+    outputDir = "$buildDir/swagger"
+
+    lang = 'java'
+
+    additionalProperties = [
+            'invokerPackage'   : 'com.fiwo.iot.demeter.api.service',
+            'modelPackage'     : 'com.fiwo.iot.demeter.api.model',
+            'apiPackage'       : 'com.fiwo.iot.demeter.api',
+            'library'          : 'retrofit2',
+            'serializableModel': 'true',
+            'dateLibrary'      : 'joda'
+    ]
+}
+
+sourceSets.main.java.srcDirs = ["$swagger.outputDir/src/main/java"]
+
+allprojects {
+    tasks.whenTaskAdded { theTask ->
+        if (theTask.name.equals('assemble')) {
+            jar.dependsOn (theTask.name)
+            theTask.name.dependsOn("swagger")
+        }
+    }
+}
+
+
+dependencies {
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-scalars:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
+    implementation "io.swagger:swagger-annotations:$rootProject.swaggerAnnotationsVersion"
+    implementation("org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:$rootProject.oltuVersion") {
+        exclude group: 'org.apache.oltu.oauth2', module: 'org.apache.oltu.oauth2.common'
+    }
+    implementation "joda-time:joda-time:$rootProject.jodaTimeVersion"
+
+    testImplementation "junit:junit:$rootProject.jUnitVersion"
+}

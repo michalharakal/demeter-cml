@@ -2,8 +2,8 @@ package com.fiwio.iot.demeter.hw.pifacedigital2;
 
 import android.util.Log;
 
-import com.fiwio.iot.demeter.hw.model.DigitalIO;
 import com.fiwio.iot.demeter.domain.features.io.DigitalIoCallback;
+import com.fiwio.iot.demeter.hw.model.DigitalIO;
 import com.fiwio.iot.demeter.hw.model.DigitalPins;
 import com.fiwio.iot.demeter.hw.model.DigitalValue;
 import com.fiwio.iot.demeter.hw.rpi3.BoardDefaults;
@@ -20,6 +20,7 @@ public class DemeterDigitalPins implements DigitalPins, InputEdgeCallback {
     private static final String LOG_TAG = DemeterDigitalPins.class.getSimpleName();
     private final PiFaceDigital2 piFaceDigital2;
     private final DemeterInput floatBarrel;
+    private final DemeterRelay sensorsSignaling;
     private List<DigitalIO> inputs = new ArrayList<>();
     private List<DigitalIO> relays = new ArrayList<>();
 
@@ -33,6 +34,8 @@ public class DemeterDigitalPins implements DigitalPins, InputEdgeCallback {
         relays.add(new DemeterRelay(piFaceDigital2, 1, "BCM24")); // garden
         relays.add(new DemeterRelay(piFaceDigital2, 2, "BCM25")); // flowers
         relays.add(new DemeterRelay(piFaceDigital2, 4, "BCM26")); // greenhouse
+        sensorsSignaling = new DemeterRelay(piFaceDigital2, 5, "BCM27");
+        relays.add(sensorsSignaling);
 
         floatBarrel = new DemeterInput(piFaceDigital2, 0, "INP0");
         inputs.add(floatBarrel);  // mechanical float - barrel
@@ -76,12 +79,14 @@ public class DemeterDigitalPins implements DigitalPins, InputEdgeCallback {
 
     @Override
     public boolean onGpioEdge(byte[] values) {
-        if (floatBarrel.getValue() == DigitalValue.OFF) {
+        boolean sensorOff = (floatBarrel.getValue() == DigitalValue.OFF);
+        if (sensorOff) {
             Log.d(LOG_TAG, "triggered on value =" + ((floatBarrel.getValue() == DigitalValue.OFF) ? "OFF" : "ON"));
             if (callback != null) {
                 callback.onFLoatSensorActivated();
             }
         }
+        sensorsSignaling.setValue((sensorOff) ? DigitalValue.ON : DigitalValue.OFF);
         return true;
     }
 }

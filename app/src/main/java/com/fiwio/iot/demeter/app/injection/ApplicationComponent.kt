@@ -16,7 +16,7 @@ import javax.inject.Singleton
 @Component(modules = arrayOf(ApplicationModule::class, DataModule::class))
 interface ApplicationComponent {
 
-    fun inject(demeterApplication: DemeterApplication)
+    fun inject(application: Application)
 
     fun plus(mainModule: MainModule): MainComponent
     fun plus(mainModule: RefreshServiceModule): RefreshServiceComponent

@@ -1,0 +1,3615 @@
+:app:dependencies
+
+------------------------------------------------------------
+Project :app
+------------------------------------------------------------
+
+androidTestAnnotationProcessor - Classpath for the annotation processor for 'androidTest'. (n)
+No dependencies
+
+androidTestApi - API dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestApk - Apk dependencies for 'androidTest' sources (deprecated: use 'androidTestRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestCompile - Compile dependencies for 'androidTest' sources (deprecated: use 'androidTestImplementation' instead). (n)
+No dependencies
+
+androidTestCompileOnly - Compile only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestDebug'. (n)
+No dependencies
+
+androidTestDebugApi - API dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugApk - Apk dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestDebugCompile - Compile dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugImplementation' instead). (n)
+No dependencies
+
+androidTestDebugCompileOnly - Compile only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugImplementation - Implementation only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugProvided - Provided dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestDebugRuntimeOnly - Runtime only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugWearApp - Link to a wear app to embed for object 'androidTestDebug'. (n)
+No dependencies
+
+androidTestImplementation - Implementation only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestMockedioAnnotationProcessor - Classpath for the annotation processor for 'androidTestMockedio'. (n)
+No dependencies
+
+androidTestMockedioApi - API dependencies for 'androidTestMockedio' sources. (n)
+No dependencies
+
+androidTestMockedioApk - Apk dependencies for 'androidTestMockedio' sources (deprecated: use 'androidTestMockedioRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestMockedioCompile - Compile dependencies for 'androidTestMockedio' sources (deprecated: use 'androidTestMockedioImplementation' instead). (n)
+No dependencies
+
+androidTestMockedioCompileOnly - Compile only dependencies for 'androidTestMockedio' sources. (n)
+No dependencies
+
+androidTestMockedioDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestMockedioDebug'. (n)
+No dependencies
+
+androidTestMockedioDebugApi - API dependencies for 'androidTestMockedioDebug' sources. (n)
+No dependencies
+
+androidTestMockedioDebugApk - Apk dependencies for 'androidTestMockedioDebug' sources (deprecated: use 'androidTestMockedioDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestMockedioDebugCompile - Compile dependencies for 'androidTestMockedioDebug' sources (deprecated: use 'androidTestMockedioDebugImplementation' instead). (n)
+No dependencies
+
+androidTestMockedioDebugCompileOnly - Compile only dependencies for 'androidTestMockedioDebug' sources. (n)
+No dependencies
+
+androidTestMockedioDebugImplementation - Implementation only dependencies for 'androidTestMockedioDebug' sources. (n)
+No dependencies
+
+androidTestMockedioDebugProvided - Provided dependencies for 'androidTestMockedioDebug' sources (deprecated: use 'androidTestMockedioDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestMockedioDebugRuntimeOnly - Runtime only dependencies for 'androidTestMockedioDebug' sources. (n)
+No dependencies
+
+androidTestMockedioDebugWearApp - Link to a wear app to embed for object 'androidTestMockedioDebug'. (n)
+No dependencies
+
+androidTestMockedioImplementation - Implementation only dependencies for 'androidTestMockedio' sources. (n)
+No dependencies
+
+androidTestMockedioProvided - Provided dependencies for 'androidTestMockedio' sources (deprecated: use 'androidTestMockedioCompileOnly' instead). (n)
+No dependencies
+
+androidTestMockedioRuntimeOnly - Runtime only dependencies for 'androidTestMockedio' sources. (n)
+No dependencies
+
+androidTestMockedioWearApp - Link to a wear app to embed for object 'androidTestMockedio'. (n)
+No dependencies
+
+androidTestPifacedigitalAnnotationProcessor - Classpath for the annotation processor for 'androidTestPifacedigital'. (n)
+No dependencies
+
+androidTestPifacedigitalApi - API dependencies for 'androidTestPifacedigital' sources. (n)
+No dependencies
+
+androidTestPifacedigitalApk - Apk dependencies for 'androidTestPifacedigital' sources (deprecated: use 'androidTestPifacedigitalRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestPifacedigitalCompile - Compile dependencies for 'androidTestPifacedigital' sources (deprecated: use 'androidTestPifacedigitalImplementation' instead). (n)
+No dependencies
+
+androidTestPifacedigitalCompileOnly - Compile only dependencies for 'androidTestPifacedigital' sources. (n)
+No dependencies
+
+androidTestPifacedigitalDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestPifacedigitalDebug'. (n)
+No dependencies
+
+androidTestPifacedigitalDebugApi - API dependencies for 'androidTestPifacedigitalDebug' sources. (n)
+No dependencies
+
+androidTestPifacedigitalDebugApk - Apk dependencies for 'androidTestPifacedigitalDebug' sources (deprecated: use 'androidTestPifacedigitalDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestPifacedigitalDebugCompile - Compile dependencies for 'androidTestPifacedigitalDebug' sources (deprecated: use 'androidTestPifacedigitalDebugImplementation' instead). (n)
+No dependencies
+
+androidTestPifacedigitalDebugCompileOnly - Compile only dependencies for 'androidTestPifacedigitalDebug' sources. (n)
+No dependencies
+
+androidTestPifacedigitalDebugImplementation - Implementation only dependencies for 'androidTestPifacedigitalDebug' sources. (n)
+No dependencies
+
+androidTestPifacedigitalDebugProvided - Provided dependencies for 'androidTestPifacedigitalDebug' sources (deprecated: use 'androidTestPifacedigitalDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestPifacedigitalDebugRuntimeOnly - Runtime only dependencies for 'androidTestPifacedigitalDebug' sources. (n)
+No dependencies
+
+androidTestPifacedigitalDebugWearApp - Link to a wear app to embed for object 'androidTestPifacedigitalDebug'. (n)
+No dependencies
+
+androidTestPifacedigitalImplementation - Implementation only dependencies for 'androidTestPifacedigital' sources. (n)
+No dependencies
+
+androidTestPifacedigitalProvided - Provided dependencies for 'androidTestPifacedigital' sources (deprecated: use 'androidTestPifacedigitalCompileOnly' instead). (n)
+No dependencies
+
+androidTestPifacedigitalRuntimeOnly - Runtime only dependencies for 'androidTestPifacedigital' sources. (n)
+No dependencies
+
+androidTestPifacedigitalWearApp - Link to a wear app to embed for object 'androidTestPifacedigital'. (n)
+No dependencies
+
+androidTestProvided - Provided dependencies for 'androidTest' sources (deprecated: use 'androidTestCompileOnly' instead). (n)
+No dependencies
+
+androidTestRuntimeOnly - Runtime only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestUtil - Additional APKs used during instrumentation testing.
+No dependencies
+
+androidTestWearApp - Link to a wear app to embed for object 'androidTest'. (n)
+No dependencies
+
+annotationProcessor - Classpath for the annotation processor for 'main'. (n)
+No dependencies
+
+api - API dependencies for 'main' sources. (n)
+No dependencies
+
+apk - Apk dependencies for 'main' sources (deprecated: use 'runtimeOnly' instead). (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Compile dependencies for 'main' sources (deprecated: use 'implementation' instead).
+No dependencies
+
+compileOnly - Compile only dependencies for 'main' sources. (n)
+\--- com.google.android.things:androidthings:1.0 (n)
+
+debugAnnotationProcessor - Classpath for the annotation processor for 'debug'. (n)
+No dependencies
+
+debugApi - API dependencies for 'debug' sources. (n)
+No dependencies
+
+debugApk - Apk dependencies for 'debug' sources (deprecated: use 'debugRuntimeOnly' instead). (n)
+No dependencies
+
+debugCompile - Compile dependencies for 'debug' sources (deprecated: use 'debugImplementation' instead). (n)
+No dependencies
+
+debugCompileOnly - Compile only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugImplementation - Implementation only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugProvided - Provided dependencies for 'debug' sources (deprecated: use 'debugCompileOnly' instead). (n)
+No dependencies
+
+debugRuntimeOnly - Runtime only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugWearApp - Link to a wear app to embed for object 'debug'. (n)
+No dependencies
+
+default - Configuration for default artifacts.
+No dependencies
+
+implementation - Implementation only dependencies for 'main' sources. (n)
++--- project pifacedigital2 (n)
++--- project hw-gateway (n)
++--- project domain (n)
++--- project client-api (n)
++--- project http-server (n)
++--- project data (n)
++--- project local-storage (n)
++--- javax.annotation:jsr250-api:1.0 (n)
++--- javax.inject:javax.inject:1 (n)
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (n)
++--- io.reactivex.rxjava2:rxandroid:2.0.1 (n)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (n)
++--- io.github.microutils:kotlin-logging:1.5.3 (n)
++--- org.greenrobot:eventbus:3.0.0 (n)
++--- net.danlew:android.joda:2.9.9.2 (n)
++--- com.google.dagger:dagger:2.11 (n)
++--- com.google.dagger:dagger-android-support:2.11 (n)
++--- org.nanohttpd:nanohttpd:2.2.0 (n)
++--- org.slf4j:slf4j-api:1.7.25 (n)
++--- com.github.tony19:logback-android-core:1.1.1-6 (n)
++--- com.github.tony19:logback-android-classic:1.1.1-6 (n)
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (n)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (n)
+
+kapt
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptAndroidTest
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptAndroidTestDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptAndroidTestMockedio
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptAndroidTestMockedioDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptAndroidTestPifacedigital
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptAndroidTestPifacedigitalDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptMockedio
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptMockedioDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptMockedioRelease
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptPifacedigital
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptPifacedigitalDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptPifacedigitalRelease
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptRelease
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTest
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTestDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTestMockedio
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTestMockedioDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTestMockedioRelease
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTestPifacedigital
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTestPifacedigitalDebug
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTestPifacedigitalRelease
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+kaptTestRelease
++--- org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|         \--- org.jetbrains.kotlin:kotlin-script-runtime:1.2.51
++--- com.google.dagger:dagger-compiler:2.11
+|    +--- com.google.dagger:dagger:2.11
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.dagger:dagger-producers:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    +--- com.google.guava:guava:21.0
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    +--- com.google.googlejavaformat:google-java-format:1.3
+|    |    +--- com.google.guava:guava:19.0 -> 21.0
+|    |    \--- com.google.errorprone:javac:9-dev-r3297-1-shaded
+|    +--- com.google.guava:guava:21.0
+|    +--- com.squareup:javapoet:1.7.0
+|    \--- javax.inject:javax.inject:1
+\--- com.google.dagger:dagger-android-processor:2.11
+     +--- com.google.dagger:dagger:2.11 (*)
+     +--- com.google.dagger:dagger-android-jarimpl:2.11
+     +--- com.google.dagger:dagger-android-support-jarimpl:2.11
+     +--- com.google.googlejavaformat:google-java-format:1.3 (*)
+     +--- com.google.guava:guava:21.0
+     \--- com.squareup:javapoet:1.7.0
+
+lintChecks - Configuration to apply external lint check jar
+No dependencies
+
+lintClassPath - The lint embedded classpath
+\--- com.android.tools.lint:lint-gradle:26.1.3
+     +--- com.android.tools:sdk-common:26.1.3
+     |    +--- com.android.tools:sdklib:26.1.3
+     |    |    +--- com.android.tools.layoutlib:layoutlib-api:26.1.3
+     |    |    |    +--- com.android.tools:common:26.1.3
+     |    |    |    |    +--- com.android.tools:annotations:26.1.3
+     |    |    |    |    \--- com.google.guava:guava:22.0
+     |    |    |    |         +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |         +--- com.google.errorprone:error_prone_annotations:2.0.18
+     |    |    |    |         +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |         \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- net.sf.kxml:kxml2:2.3.0
+     |    |    |    +--- com.android.tools:annotations:26.1.3
+     |    |    |    \--- org.jetbrains:annotations:13.0
+     |    |    +--- com.android.tools:dvlib:26.1.3
+     |    |    |    \--- com.android.tools:common:26.1.3 (*)
+     |    |    +--- com.android.tools:repository:26.1.3
+     |    |    |    +--- com.android.tools:common:26.1.3 (*)
+     |    |    |    +--- com.sun.activation:javax.activation:1.2.0
+     |    |    |    +--- org.apache.commons:commons-compress:1.12
+     |    |    |    +--- org.glassfish.jaxb:jaxb-runtime:2.2.11
+     |    |    |    |    +--- org.glassfish.jaxb:jaxb-core:2.2.11
+     |    |    |    |    |    +--- javax.xml.bind:jaxb-api:2.2.12-b140109.1041
+     |    |    |    |    |    +--- org.glassfish.jaxb:txw2:2.2.11
+     |    |    |    |    |    \--- com.sun.istack:istack-commons-runtime:2.21
+     |    |    |    |    +--- org.jvnet.staxex:stax-ex:1.7.7
+     |    |    |    |    \--- com.sun.xml.fastinfoset:FastInfoset:1.2.13
+     |    |    |    +--- com.google.jimfs:jimfs:1.1
+     |    |    |    |    \--- com.google.guava:guava:18.0 -> 22.0 (*)
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0
+     |    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.0
+     |    |    |         |    \--- org.jetbrains:annotations:13.0
+     |    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.0
+     |    |    |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.0 (*)
+     |    |    +--- com.google.code.gson:gson:2.7
+     |    |    +--- org.apache.commons:commons-compress:1.12
+     |    |    +--- org.apache.httpcomponents:httpclient:4.2.6
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.2.5
+     |    |    |    +--- commons-logging:commons-logging:1.1.1
+     |    |    |    \--- commons-codec:commons-codec:1.6
+     |    |    \--- org.apache.httpcomponents:httpmime:4.1
+     |    |         +--- org.apache.httpcomponents:httpcore:4.1 -> 4.2.5
+     |    |         \--- commons-logging:commons-logging:1.1.1
+     |    +--- com.android.tools.build:builder-test-api:3.1.3
+     |    |    \--- com.android.tools.ddms:ddmlib:26.1.3
+     |    |         +--- com.android.tools:common:26.1.3 (*)
+     |    |         \--- net.sf.kxml:kxml2:2.3.0
+     |    +--- com.android.tools.build:builder-model:3.1.3
+     |    |    \--- com.android.tools:annotations:26.1.3
+     |    +--- com.android.tools.ddms:ddmlib:26.1.3 (*)
+     |    +--- org.bouncycastle:bcpkix-jdk15on:1.56
+     |    |    \--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.0 (*)
+     |    \--- com.google.protobuf:protobuf-java:3.4.0
+     +--- com.android.tools.build:builder:3.1.3
+     |    +--- com.android.tools.build:builder-model:3.1.3 (*)
+     |    +--- com.android.tools.build:builder-test-api:3.1.3 (*)
+     |    +--- com.android.tools:sdklib:26.1.3 (*)
+     |    +--- com.android.tools:sdk-common:26.1.3 (*)
+     |    +--- com.android.tools:common:26.1.3 (*)
+     |    +--- com.android.tools.build:manifest-merger:26.1.3
+     |    |    +--- com.android.tools:common:26.1.3 (*)
+     |    |    +--- com.android.tools:sdklib:26.1.3 (*)
+     |    |    +--- com.android.tools:sdk-common:26.1.3 (*)
+     |    |    +--- com.google.code.gson:gson:2.7
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    |    \--- net.sf.kxml:kxml2:2.3.0
+     |    +--- com.android.tools.ddms:ddmlib:26.1.3 (*)
+     |    +--- com.android.tools.analytics-library:protos:26.1.3
+     |    |    \--- com.google.protobuf:protobuf-java:3.4.0
+     |    +--- com.android.tools.analytics-library:shared:26.1.3
+     |    |    +--- com.android.tools.analytics-library:protos:26.1.3 (*)
+     |    |    +--- com.android.tools:annotations:26.1.3
+     |    |    +--- com.android.tools:common:26.1.3 (*)
+     |    |    +--- com.google.guava:guava:22.0 (*)
+     |    |    \--- com.google.code.gson:gson:2.7
+     |    +--- com.android.tools.analytics-library:tracker:26.1.3
+     |    |    +--- com.android.tools:annotations:26.1.3
+     |    |    +--- com.android.tools:common:26.1.3 (*)
+     |    |    +--- com.android.tools.analytics-library:protos:26.1.3 (*)
+     |    |    +--- com.android.tools.analytics-library:shared:26.1.3 (*)
+     |    |    +--- com.google.protobuf:protobuf-java:3.4.0
+     |    |    \--- com.google.guava:guava:22.0 (*)
+     |    +--- com.android.tools.build:apksig:3.1.3
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    +--- com.squareup:javawriter:2.5.0
+     |    +--- org.bouncycastle:bcpkix-jdk15on:1.56 (*)
+     |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.ow2.asm:asm:5.1
+     |    +--- org.ow2.asm:asm-tree:5.1
+     |    |    \--- org.ow2.asm:asm:5.1
+     |    +--- org.ow2.asm:asm-commons:5.1
+     |    |    \--- org.ow2.asm:asm-tree:5.1 (*)
+     |    +--- org.ow2.asm:asm-util:5.1
+     |    |    \--- org.ow2.asm:asm-tree:5.1 (*)
+     |    +--- it.unimi.dsi:fastutil:7.2.0
+     |    +--- net.sf.jopt-simple:jopt-simple:4.9
+     |    \--- com.googlecode.json-simple:json-simple:1.1
+     +--- com.android.tools.build:builder-model:3.1.3 (*)
+     +--- com.android.tools.external.com-intellij:intellij-core:26.1.3
+     |    \--- org.jetbrains.trove4j:trove4j:20160824
+     +--- com.android.tools.external.org-jetbrains:uast:26.1.3
+     +--- com.android.tools.build:manifest-merger:26.1.3 (*)
+     +--- com.android.tools.lint:lint:26.1.3
+     |    +--- com.android.tools.lint:lint-checks:26.1.3
+     |    |    +--- com.android.tools.lint:lint-api:26.1.3
+     |    |    |    +--- com.android.tools:sdk-common:26.1.3 (*)
+     |    |    |    +--- com.android.tools.build:builder-model:3.1.3 (*)
+     |    |    |    +--- com.google.guava:guava:22.0 (*)
+     |    |    |    +--- com.android.tools.lint:lint-kotlin:26.1.3
+     |    |    |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.1.3 (*)
+     |    |    |    |    +--- com.android.tools.external.com-intellij:kotlin-compiler:26.1.3
+     |    |    |    |    +--- com.android.tools.external.org-jetbrains:uast:26.1.3
+     |    |    |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.1.3 (*)
+     |    |    |    +--- com.android.tools.external.org-jetbrains:uast:26.1.3
+     |    |    |    +--- com.android.tools.build:manifest-merger:26.1.3 (*)
+     |    |    |    +--- org.ow2.asm:asm:5.1
+     |    |    |    +--- org.ow2.asm:asm-tree:5.1 (*)
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    |    +--- com.google.guava:guava:22.0 (*)
+     |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.1.3 (*)
+     |    |    +--- com.android.tools.external.org-jetbrains:uast:26.1.3
+     |    |    \--- org.ow2.asm:asm-analysis:5.1
+     |    |         \--- org.ow2.asm:asm-tree:5.1 (*)
+     |    +--- com.android.tools.lint:lint-kotlin:26.1.3 (*)
+     |    +--- com.google.guava:guava:22.0 (*)
+     |    +--- com.android.tools.external.org-jetbrains:uast:26.1.3
+     |    +--- com.android.tools.external.com-intellij:kotlin-compiler:26.1.3
+     |    +--- com.android.tools.build:manifest-merger:26.1.3 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     +--- com.android.tools.lint:lint-gradle-api:26.1.3
+     |    +--- com.android.tools:sdklib:26.1.3 (*)
+     |    +--- com.android.tools.build:builder-model:3.1.3 (*)
+     |    +--- com.android.tools.build:gradle-api:3.1.3
+     |    |    +--- com.android.tools.build:builder-model:3.1.3 (*)
+     |    |    +--- com.android.tools.build:builder-test-api:3.1.3 (*)
+     |    |    +--- com.google.guava:guava:22.0 (*)
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    \--- com.google.guava:guava:22.0 (*)
+     +--- org.codehaus.groovy:groovy-all:2.4.12
+     +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+
+mockedioAnnotationProcessor - Classpath for the annotation processor for 'mockedio'. (n)
+No dependencies
+
+mockedioApi - API dependencies for 'mockedio' sources. (n)
+No dependencies
+
+mockedioApk - Apk dependencies for 'mockedio' sources (deprecated: use 'mockedioRuntimeOnly' instead). (n)
+No dependencies
+
+mockedioCompile - Compile dependencies for 'mockedio' sources (deprecated: use 'mockedioImplementation' instead). (n)
+No dependencies
+
+mockedioCompileOnly - Compile only dependencies for 'mockedio' sources. (n)
+No dependencies
+
+mockedioDebugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: mockedioDebugAndroidTest
+No dependencies
+
+mockedioDebugAndroidTestCompileClasspath - Resolved configuration for compilation for variant: mockedioDebugAndroidTest
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+mockedioDebugAndroidTestRuntimeClasspath - Resolved configuration for runtime for variant: mockedioDebugAndroidTest
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+mockedioDebugAnnotationProcessor - Classpath for the annotation processor for 'mockedioDebug'. (n)
+No dependencies
+
+mockedioDebugAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: mockedioDebug
+No dependencies
+
+mockedioDebugApi - API dependencies for 'mockedioDebug' sources. (n)
+No dependencies
+
+mockedioDebugApiElements - API elements for mockedioDebug (n)
+No dependencies
+
+mockedioDebugApk - Apk dependencies for 'mockedioDebug' sources (deprecated: use 'mockedioDebugRuntimeOnly' instead). (n)
+No dependencies
+
+mockedioDebugBundleElements - Bundle elements for mockedioDebug (n)
+No dependencies
+
+mockedioDebugCompile - Compile dependencies for 'mockedioDebug' sources (deprecated: use 'mockedioDebugImplementation' instead). (n)
+No dependencies
+
+mockedioDebugCompileClasspath - Resolved configuration for compilation for variant: mockedioDebug
++--- com.google.android.things:androidthings:1.0
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+mockedioDebugCompileOnly - Compile only dependencies for 'mockedioDebug' sources. (n)
+No dependencies
+
+mockedioDebugImplementation - Implementation only dependencies for 'mockedioDebug' sources. (n)
+No dependencies
+
+mockedioDebugMetadataElements - Metadata elements for mockedioDebug (n)
+No dependencies
+
+mockedioDebugProvided - Provided dependencies for 'mockedioDebug' sources (deprecated: use 'mockedioDebugCompileOnly' instead). (n)
+No dependencies
+
+mockedioDebugRuntimeClasspath - Resolved configuration for runtime for variant: mockedioDebug
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+mockedioDebugRuntimeElements - Runtime elements for mockedioDebug (n)
+No dependencies
+
+mockedioDebugRuntimeOnly - Runtime only dependencies for 'mockedioDebug' sources. (n)
+No dependencies
+
+mockedioDebugUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: mockedioDebugUnitTest
+No dependencies
+
+mockedioDebugUnitTestCompileClasspath - Resolved configuration for compilation for variant: mockedioDebugUnitTest
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+mockedioDebugUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: mockedioDebugUnitTest
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+mockedioDebugWearApp - Link to a wear app to embed for object 'mockedioDebug'. (n)
+No dependencies
+
+mockedioDebugWearBundling - Resolved Configuration for wear app bundling for variant: mockedioDebug
+No dependencies
+
+mockedioImplementation - Implementation only dependencies for 'mockedio' sources. (n)
+No dependencies
+
+mockedioProvided - Provided dependencies for 'mockedio' sources (deprecated: use 'mockedioCompileOnly' instead). (n)
+No dependencies
+
+mockedioReleaseAnnotationProcessor - Classpath for the annotation processor for 'mockedioRelease'. (n)
+No dependencies
+
+mockedioReleaseAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: mockedioRelease
+No dependencies
+
+mockedioReleaseApi - API dependencies for 'mockedioRelease' sources. (n)
+No dependencies
+
+mockedioReleaseApiElements - API elements for mockedioRelease (n)
+No dependencies
+
+mockedioReleaseApk - Apk dependencies for 'mockedioRelease' sources (deprecated: use 'mockedioReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+mockedioReleaseBundleElements - Bundle elements for mockedioRelease (n)
+No dependencies
+
+mockedioReleaseCompile - Compile dependencies for 'mockedioRelease' sources (deprecated: use 'mockedioReleaseImplementation' instead). (n)
+No dependencies
+
+mockedioReleaseCompileClasspath - Resolved configuration for compilation for variant: mockedioRelease
++--- com.google.android.things:androidthings:1.0
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+mockedioReleaseCompileOnly - Compile only dependencies for 'mockedioRelease' sources. (n)
+No dependencies
+
+mockedioReleaseImplementation - Implementation only dependencies for 'mockedioRelease' sources. (n)
+No dependencies
+
+mockedioReleaseMetadataElements - Metadata elements for mockedioRelease (n)
+No dependencies
+
+mockedioReleaseProvided - Provided dependencies for 'mockedioRelease' sources (deprecated: use 'mockedioReleaseCompileOnly' instead). (n)
+No dependencies
+
+mockedioReleaseRuntimeClasspath - Resolved configuration for runtime for variant: mockedioRelease
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+mockedioReleaseRuntimeElements - Runtime elements for mockedioRelease (n)
+No dependencies
+
+mockedioReleaseRuntimeOnly - Runtime only dependencies for 'mockedioRelease' sources. (n)
+No dependencies
+
+mockedioReleaseUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: mockedioReleaseUnitTest
+No dependencies
+
+mockedioReleaseUnitTestCompileClasspath - Resolved configuration for compilation for variant: mockedioReleaseUnitTest
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+mockedioReleaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: mockedioReleaseUnitTest
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+mockedioReleaseWearApp - Link to a wear app to embed for object 'mockedioRelease'. (n)
+No dependencies
+
+mockedioReleaseWearBundling - Resolved Configuration for wear app bundling for variant: mockedioRelease
+No dependencies
+
+mockedioRuntimeOnly - Runtime only dependencies for 'mockedio' sources. (n)
+No dependencies
+
+mockedioWearApp - Link to a wear app to embed for object 'mockedio'. (n)
+No dependencies
+
+pifacedigitalAnnotationProcessor - Classpath for the annotation processor for 'pifacedigital'. (n)
+No dependencies
+
+pifacedigitalApi - API dependencies for 'pifacedigital' sources. (n)
+No dependencies
+
+pifacedigitalApk - Apk dependencies for 'pifacedigital' sources (deprecated: use 'pifacedigitalRuntimeOnly' instead). (n)
+No dependencies
+
+pifacedigitalCompile - Compile dependencies for 'pifacedigital' sources (deprecated: use 'pifacedigitalImplementation' instead). (n)
+No dependencies
+
+pifacedigitalCompileOnly - Compile only dependencies for 'pifacedigital' sources. (n)
+No dependencies
+
+pifacedigitalDebugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: pifacedigitalDebugAndroidTest
+No dependencies
+
+pifacedigitalDebugAndroidTestCompileClasspath - Resolved configuration for compilation for variant: pifacedigitalDebugAndroidTest
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+pifacedigitalDebugAndroidTestRuntimeClasspath - Resolved configuration for runtime for variant: pifacedigitalDebugAndroidTest
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+pifacedigitalDebugAnnotationProcessor - Classpath for the annotation processor for 'pifacedigitalDebug'. (n)
+No dependencies
+
+pifacedigitalDebugAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: pifacedigitalDebug
+No dependencies
+
+pifacedigitalDebugApi - API dependencies for 'pifacedigitalDebug' sources. (n)
+No dependencies
+
+pifacedigitalDebugApiElements - API elements for pifacedigitalDebug (n)
+No dependencies
+
+pifacedigitalDebugApk - Apk dependencies for 'pifacedigitalDebug' sources (deprecated: use 'pifacedigitalDebugRuntimeOnly' instead). (n)
+No dependencies
+
+pifacedigitalDebugBundleElements - Bundle elements for pifacedigitalDebug (n)
+No dependencies
+
+pifacedigitalDebugCompile - Compile dependencies for 'pifacedigitalDebug' sources (deprecated: use 'pifacedigitalDebugImplementation' instead). (n)
+No dependencies
+
+pifacedigitalDebugCompileClasspath - Resolved configuration for compilation for variant: pifacedigitalDebug
++--- com.google.android.things:androidthings:1.0
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+pifacedigitalDebugCompileOnly - Compile only dependencies for 'pifacedigitalDebug' sources. (n)
+No dependencies
+
+pifacedigitalDebugImplementation - Implementation only dependencies for 'pifacedigitalDebug' sources. (n)
+No dependencies
+
+pifacedigitalDebugMetadataElements - Metadata elements for pifacedigitalDebug (n)
+No dependencies
+
+pifacedigitalDebugProvided - Provided dependencies for 'pifacedigitalDebug' sources (deprecated: use 'pifacedigitalDebugCompileOnly' instead). (n)
+No dependencies
+
+pifacedigitalDebugRuntimeClasspath - Resolved configuration for runtime for variant: pifacedigitalDebug
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+pifacedigitalDebugRuntimeElements - Runtime elements for pifacedigitalDebug (n)
+No dependencies
+
+pifacedigitalDebugRuntimeOnly - Runtime only dependencies for 'pifacedigitalDebug' sources. (n)
+No dependencies
+
+pifacedigitalDebugUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: pifacedigitalDebugUnitTest
+No dependencies
+
+pifacedigitalDebugUnitTestCompileClasspath - Resolved configuration for compilation for variant: pifacedigitalDebugUnitTest
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+pifacedigitalDebugUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: pifacedigitalDebugUnitTest
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+pifacedigitalDebugWearApp - Link to a wear app to embed for object 'pifacedigitalDebug'. (n)
+No dependencies
+
+pifacedigitalDebugWearBundling - Resolved Configuration for wear app bundling for variant: pifacedigitalDebug
+No dependencies
+
+pifacedigitalImplementation - Implementation only dependencies for 'pifacedigital' sources. (n)
+No dependencies
+
+pifacedigitalProvided - Provided dependencies for 'pifacedigital' sources (deprecated: use 'pifacedigitalCompileOnly' instead). (n)
+No dependencies
+
+pifacedigitalReleaseAnnotationProcessor - Classpath for the annotation processor for 'pifacedigitalRelease'. (n)
+No dependencies
+
+pifacedigitalReleaseAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: pifacedigitalRelease
+No dependencies
+
+pifacedigitalReleaseApi - API dependencies for 'pifacedigitalRelease' sources. (n)
+No dependencies
+
+pifacedigitalReleaseApiElements - API elements for pifacedigitalRelease (n)
+No dependencies
+
+pifacedigitalReleaseApk - Apk dependencies for 'pifacedigitalRelease' sources (deprecated: use 'pifacedigitalReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+pifacedigitalReleaseBundleElements - Bundle elements for pifacedigitalRelease (n)
+No dependencies
+
+pifacedigitalReleaseCompile - Compile dependencies for 'pifacedigitalRelease' sources (deprecated: use 'pifacedigitalReleaseImplementation' instead). (n)
+No dependencies
+
+pifacedigitalReleaseCompileClasspath - Resolved configuration for compilation for variant: pifacedigitalRelease
++--- com.google.android.things:androidthings:1.0
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+pifacedigitalReleaseCompileOnly - Compile only dependencies for 'pifacedigitalRelease' sources. (n)
+No dependencies
+
+pifacedigitalReleaseImplementation - Implementation only dependencies for 'pifacedigitalRelease' sources. (n)
+No dependencies
+
+pifacedigitalReleaseMetadataElements - Metadata elements for pifacedigitalRelease (n)
+No dependencies
+
+pifacedigitalReleaseProvided - Provided dependencies for 'pifacedigitalRelease' sources (deprecated: use 'pifacedigitalReleaseCompileOnly' instead). (n)
+No dependencies
+
+pifacedigitalReleaseRuntimeClasspath - Resolved configuration for runtime for variant: pifacedigitalRelease
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+pifacedigitalReleaseRuntimeElements - Runtime elements for pifacedigitalRelease (n)
+No dependencies
+
+pifacedigitalReleaseRuntimeOnly - Runtime only dependencies for 'pifacedigitalRelease' sources. (n)
+No dependencies
+
+pifacedigitalReleaseUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: pifacedigitalReleaseUnitTest
+No dependencies
+
+pifacedigitalReleaseUnitTestCompileClasspath - Resolved configuration for compilation for variant: pifacedigitalReleaseUnitTest
++--- project :pifacedigital2
++--- project :hw-gateway
++--- project :domain
++--- project :client-api
++--- project :http-server
+|    +--- project :domain
+|    \--- project :client-api
++--- project :data
+|    \--- project :domain
++--- project :local-storage
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|         \--- org.jetbrains:annotations:13.0
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    \--- org.slf4j:slf4j-api:1.7.25
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    \--- com.google.code.gson:gson:2.3.1
+\--- au.com.datasymphony:EasyFlow:1.3.1
+     \--- com.google.guava:guava:15.0
+
+pifacedigitalReleaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: pifacedigitalReleaseUnitTest
++--- project :pifacedigital2
++--- project :hw-gateway
+|    +--- project :pifacedigital2
+|    +--- project :domain
+|    |    +--- javax.annotation:jsr250-api:1.0
+|    |    +--- javax.inject:javax.inject:1
+|    |    +--- io.reactivex.rxjava2:rxkotlin:2.1.0
+|    |    |    +--- io.reactivex.rxjava2:rxjava:2.1.0
+|    |    |    |    \--- org.reactivestreams:reactive-streams:1.0.0
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.1.3 -> 1.2.51
+|    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.2.51
+|    |    |         \--- org.jetbrains:annotations:13.0
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51
+|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.51 (*)
+|    |    +--- io.github.microutils:kotlin-logging:1.5.3
+|    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.20 -> 1.2.51 (*)
+|    |    |    \--- org.slf4j:slf4j-api:1.7.25
+|    |    +--- joda-time:joda-time:2.9.9
+|    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    \--- au.com.datasymphony:EasyFlow:1.3.1
+|    |         \--- com.google.guava:guava:15.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- project :domain (*)
++--- project :client-api
+|    +--- com.squareup.retrofit2:retrofit:2.3.0
+|    |    \--- com.squareup.okhttp3:okhttp:3.8.0
+|    |         \--- com.squareup.okio:okio:1.13.0
+|    +--- com.squareup.retrofit2:converter-scalars:2.3.0
+|    |    \--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    +--- com.squareup.retrofit2:converter-gson:2.3.0
+|    |    +--- com.squareup.retrofit2:retrofit:2.3.0 (*)
+|    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
+|    +--- io.swagger:swagger-annotations:1.5.0
+|    \--- org.apache.oltu.oauth2:org.apache.oltu.oauth2.client:1.0.1
+|         \--- org.slf4j:slf4j-api:1.7.7 -> 1.7.25
++--- project :http-server
+|    +--- project :domain (*)
+|    +--- project :client-api (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    +--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0
+|    |    \--- com.google.code.gson:gson:2.3.1 -> 2.8.1
+|    \--- org.nanohttpd:nanohttpd:2.2.0
++--- project :data
+|    +--- project :domain (*)
+|    +--- javax.annotation:jsr250-api:1.0
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.jakewharton.rxrelay2:rxrelay:2.0.0
+|    |    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- project :local-storage
+|    +--- project :data (*)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
+|    +--- com.google.code.gson:gson:2.8.1
+|    \--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- javax.annotation:jsr250-api:1.0
++--- javax.inject:javax.inject:1
++--- io.reactivex.rxjava2:rxkotlin:2.1.0 (*)
++--- io.reactivex.rxjava2:rxandroid:2.0.1
+|    \--- io.reactivex.rxjava2:rxjava:2.0.1 -> 2.1.0 (*)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.51 (*)
++--- io.github.microutils:kotlin-logging:1.5.3 (*)
++--- org.greenrobot:eventbus:3.0.0
++--- net.danlew:android.joda:2.9.9.2
+|    \--- joda-time:joda-time:2.9.9
++--- com.google.dagger:dagger:2.11
+|    \--- javax.inject:javax.inject:1
++--- com.google.dagger:dagger-android-support:2.11
+|    +--- com.google.dagger:dagger:2.11 (*)
+|    +--- com.google.dagger:dagger-android:2.11
+|    |    +--- com.google.dagger:dagger:2.11 (*)
+|    |    +--- com.android.support:support-annotations:25.0.0
+|    |    +--- com.google.code.findbugs:jsr305:3.0.1
+|    |    \--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:25.0.0
+|    |    +--- com.android.support:support-v4:25.0.0
+|    |    |    +--- com.android.support:support-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-annotations:25.0.0
+|    |    |    +--- com.android.support:support-media-compat:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    +--- com.android.support:support-core-ui:25.0.0
+|    |    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    |    \--- com.android.support:support-fragment:25.0.0
+|    |    |         +--- com.android.support:support-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-media-compat:25.0.0 (*)
+|    |    |         +--- com.android.support:support-core-ui:25.0.0 (*)
+|    |    |         \--- com.android.support:support-core-utils:25.0.0 (*)
+|    |    +--- com.android.support:support-vector-drawable:25.0.0
+|    |    |    \--- com.android.support:support-compat:25.0.0 (*)
+|    |    \--- com.android.support:animated-vector-drawable:25.0.0
+|    |         \--- com.android.support:support-vector-drawable:25.0.0 (*)
+|    +--- com.android.support:support-annotations:25.0.0
+|    +--- com.android.support:support-v4:25.0.0 (*)
+|    +--- com.google.code.findbugs:jsr305:3.0.1
+|    \--- javax.inject:javax.inject:1
++--- org.nanohttpd:nanohttpd:2.2.0
++--- org.slf4j:slf4j-api:1.7.25
++--- com.github.tony19:logback-android-core:1.1.1-6
++--- com.github.tony19:logback-android-classic:1.1.1-6
+|    +--- com.github.tony19:logback-android-core:1.1.1-6
+|    \--- com.github.tony19:apktool-lib:1.4.4-3
++--- com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:1.6.0 (*)
+\--- au.com.datasymphony:EasyFlow:1.3.1 (*)
+
+pifacedigitalReleaseWearApp - Link to a wear app to embed for object 'pifacedigitalRelease'. (n)
+No dependencies
+
+pifacedigitalReleaseWearBundling - Resolved Configuration for wear app bundling for variant: pifacedigitalRelease
+No dependencies
+
+pifacedigitalRuntimeOnly - Runtime only dependencies for 'pifacedigital' sources. (n)
+No dependencies
+
+pifacedigitalWearApp - Link to a wear app to embed for object 'pifacedigital'. (n)
+No dependencies
+
+provided - Provided dependencies for 'main' sources (deprecated: use 'compileOnly' instead). (n)
+No dependencies
+
+releaseAnnotationProcessor - Classpath for the annotation processor for 'release'. (n)
+No dependencies
+
+releaseApi - API dependencies for 'release' sources. (n)
+No dependencies
+
+releaseApk - Apk dependencies for 'release' sources (deprecated: use 'releaseRuntimeOnly' instead). (n)
+No dependencies
+
+releaseCompile - Compile dependencies for 'release' sources (deprecated: use 'releaseImplementation' instead). (n)
+No dependencies
+
+releaseCompileOnly - Compile only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseImplementation - Implementation only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseProvided - Provided dependencies for 'release' sources (deprecated: use 'releaseCompileOnly' instead). (n)
+No dependencies
+
+releaseRuntimeOnly - Runtime only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseWearApp - Link to a wear app to embed for object 'release'. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for 'main' sources. (n)
+No dependencies
+
+testAnnotationProcessor - Classpath for the annotation processor for 'test'. (n)
+No dependencies
+
+testApi - API dependencies for 'test' sources. (n)
+No dependencies
+
+testApk - Apk dependencies for 'test' sources (deprecated: use 'testRuntimeOnly' instead). (n)
+No dependencies
+
+testCompile - Compile dependencies for 'test' sources (deprecated: use 'testImplementation' instead).
+No dependencies
+
+testCompileOnly - Compile only dependencies for 'test' sources. (n)
+No dependencies
+
+testDebugAnnotationProcessor - Classpath for the annotation processor for 'testDebug'. (n)
+No dependencies
+
+testDebugApi - API dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugApk - Apk dependencies for 'testDebug' sources (deprecated: use 'testDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testDebugCompile - Compile dependencies for 'testDebug' sources (deprecated: use 'testDebugImplementation' instead). (n)
+No dependencies
+
+testDebugCompileOnly - Compile only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugImplementation - Implementation only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugProvided - Provided dependencies for 'testDebug' sources (deprecated: use 'testDebugCompileOnly' instead). (n)
+No dependencies
+
+testDebugRuntimeOnly - Runtime only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugWearApp - Link to a wear app to embed for object 'testDebug'. (n)
+No dependencies
+
+testImplementation - Implementation only dependencies for 'test' sources. (n)
+No dependencies
+
+testMockedioAnnotationProcessor - Classpath for the annotation processor for 'testMockedio'. (n)
+No dependencies
+
+testMockedioApi - API dependencies for 'testMockedio' sources. (n)
+No dependencies
+
+testMockedioApk - Apk dependencies for 'testMockedio' sources (deprecated: use 'testMockedioRuntimeOnly' instead). (n)
+No dependencies
+
+testMockedioCompile - Compile dependencies for 'testMockedio' sources (deprecated: use 'testMockedioImplementation' instead). (n)
+No dependencies
+
+testMockedioCompileOnly - Compile only dependencies for 'testMockedio' sources. (n)
+No dependencies
+
+testMockedioDebugAnnotationProcessor - Classpath for the annotation processor for 'testMockedioDebug'. (n)
+No dependencies
+
+testMockedioDebugApi - API dependencies for 'testMockedioDebug' sources. (n)
+No dependencies
+
+testMockedioDebugApk - Apk dependencies for 'testMockedioDebug' sources (deprecated: use 'testMockedioDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testMockedioDebugCompile - Compile dependencies for 'testMockedioDebug' sources (deprecated: use 'testMockedioDebugImplementation' instead). (n)
+No dependencies
+
+testMockedioDebugCompileOnly - Compile only dependencies for 'testMockedioDebug' sources. (n)
+No dependencies
+
+testMockedioDebugImplementation - Implementation only dependencies for 'testMockedioDebug' sources. (n)
+No dependencies
+
+testMockedioDebugProvided - Provided dependencies for 'testMockedioDebug' sources (deprecated: use 'testMockedioDebugCompileOnly' instead). (n)
+No dependencies
+
+testMockedioDebugRuntimeOnly - Runtime only dependencies for 'testMockedioDebug' sources. (n)
+No dependencies
+
+testMockedioDebugWearApp - Link to a wear app to embed for object 'testMockedioDebug'. (n)
+No dependencies
+
+testMockedioImplementation - Implementation only dependencies for 'testMockedio' sources. (n)
+No dependencies
+
+testMockedioProvided - Provided dependencies for 'testMockedio' sources (deprecated: use 'testMockedioCompileOnly' instead). (n)
+No dependencies
+
+testMockedioReleaseAnnotationProcessor - Classpath for the annotation processor for 'testMockedioRelease'. (n)
+No dependencies
+
+testMockedioReleaseApi - API dependencies for 'testMockedioRelease' sources. (n)
+No dependencies
+
+testMockedioReleaseApk - Apk dependencies for 'testMockedioRelease' sources (deprecated: use 'testMockedioReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testMockedioReleaseCompile - Compile dependencies for 'testMockedioRelease' sources (deprecated: use 'testMockedioReleaseImplementation' instead). (n)
+No dependencies
+
+testMockedioReleaseCompileOnly - Compile only dependencies for 'testMockedioRelease' sources. (n)
+No dependencies
+
+testMockedioReleaseImplementation - Implementation only dependencies for 'testMockedioRelease' sources. (n)
+No dependencies
+
+testMockedioReleaseProvided - Provided dependencies for 'testMockedioRelease' sources (deprecated: use 'testMockedioReleaseCompileOnly' instead). (n)
+No dependencies
+
+testMockedioReleaseRuntimeOnly - Runtime only dependencies for 'testMockedioRelease' sources. (n)
+No dependencies
+
+testMockedioReleaseWearApp - Link to a wear app to embed for object 'testMockedioRelease'. (n)
+No dependencies
+
+testMockedioRuntimeOnly - Runtime only dependencies for 'testMockedio' sources. (n)
+No dependencies
+
+testMockedioWearApp - Link to a wear app to embed for object 'testMockedio'. (n)
+No dependencies
+
+testPifacedigitalAnnotationProcessor - Classpath for the annotation processor for 'testPifacedigital'. (n)
+No dependencies
+
+testPifacedigitalApi - API dependencies for 'testPifacedigital' sources. (n)
+No dependencies
+
+testPifacedigitalApk - Apk dependencies for 'testPifacedigital' sources (deprecated: use 'testPifacedigitalRuntimeOnly' instead). (n)
+No dependencies
+
+testPifacedigitalCompile - Compile dependencies for 'testPifacedigital' sources (deprecated: use 'testPifacedigitalImplementation' instead). (n)
+No dependencies
+
+testPifacedigitalCompileOnly - Compile only dependencies for 'testPifacedigital' sources. (n)
+No dependencies
+
+testPifacedigitalDebugAnnotationProcessor - Classpath for the annotation processor for 'testPifacedigitalDebug'. (n)
+No dependencies
+
+testPifacedigitalDebugApi - API dependencies for 'testPifacedigitalDebug' sources. (n)
+No dependencies
+
+testPifacedigitalDebugApk - Apk dependencies for 'testPifacedigitalDebug' sources (deprecated: use 'testPifacedigitalDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testPifacedigitalDebugCompile - Compile dependencies for 'testPifacedigitalDebug' sources (deprecated: use 'testPifacedigitalDebugImplementation' instead). (n)
+No dependencies
+
+testPifacedigitalDebugCompileOnly - Compile only dependencies for 'testPifacedigitalDebug' sources. (n)
+No dependencies
+
+testPifacedigitalDebugImplementation - Implementation only dependencies for 'testPifacedigitalDebug' sources. (n)
+No dependencies
+
+testPifacedigitalDebugProvided - Provided dependencies for 'testPifacedigitalDebug' sources (deprecated: use 'testPifacedigitalDebugCompileOnly' instead). (n)
+No dependencies
+
+testPifacedigitalDebugRuntimeOnly - Runtime only dependencies for 'testPifacedigitalDebug' sources. (n)
+No dependencies
+
+testPifacedigitalDebugWearApp - Link to a wear app to embed for object 'testPifacedigitalDebug'. (n)
+No dependencies
+
+testPifacedigitalImplementation - Implementation only dependencies for 'testPifacedigital' sources. (n)
+No dependencies
+
+testPifacedigitalProvided - Provided dependencies for 'testPifacedigital' sources (deprecated: use 'testPifacedigitalCompileOnly' instead). (n)
+No dependencies
+
+testPifacedigitalReleaseAnnotationProcessor - Classpath for the annotation processor for 'testPifacedigitalRelease'. (n)
+No dependencies
+
+testPifacedigitalReleaseApi - API dependencies for 'testPifacedigitalRelease' sources. (n)
+No dependencies
+
+testPifacedigitalReleaseApk - Apk dependencies for 'testPifacedigitalRelease' sources (deprecated: use 'testPifacedigitalReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testPifacedigitalReleaseCompile - Compile dependencies for 'testPifacedigitalRelease' sources (deprecated: use 'testPifacedigitalReleaseImplementation' instead). (n)
+No dependencies
+
+testPifacedigitalReleaseCompileOnly - Compile only dependencies for 'testPifacedigitalRelease' sources. (n)
+No dependencies
+
+testPifacedigitalReleaseImplementation - Implementation only dependencies for 'testPifacedigitalRelease' sources. (n)
+No dependencies
+
+testPifacedigitalReleaseProvided - Provided dependencies for 'testPifacedigitalRelease' sources (deprecated: use 'testPifacedigitalReleaseCompileOnly' instead). (n)
+No dependencies
+
+testPifacedigitalReleaseRuntimeOnly - Runtime only dependencies for 'testPifacedigitalRelease' sources. (n)
+No dependencies
+
+testPifacedigitalReleaseWearApp - Link to a wear app to embed for object 'testPifacedigitalRelease'. (n)
+No dependencies
+
+testPifacedigitalRuntimeOnly - Runtime only dependencies for 'testPifacedigital' sources. (n)
+No dependencies
+
+testPifacedigitalWearApp - Link to a wear app to embed for object 'testPifacedigital'. (n)
+No dependencies
+
+testProvided - Provided dependencies for 'test' sources (deprecated: use 'testCompileOnly' instead). (n)
+No dependencies
+
+testReleaseAnnotationProcessor - Classpath for the annotation processor for 'testRelease'. (n)
+No dependencies
+
+testReleaseApi - API dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseApk - Apk dependencies for 'testRelease' sources (deprecated: use 'testReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testReleaseCompile - Compile dependencies for 'testRelease' sources (deprecated: use 'testReleaseImplementation' instead). (n)
+No dependencies
+
+testReleaseCompileOnly - Compile only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseImplementation - Implementation only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseProvided - Provided dependencies for 'testRelease' sources (deprecated: use 'testReleaseCompileOnly' instead). (n)
+No dependencies
+
+testReleaseRuntimeOnly - Runtime only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseWearApp - Link to a wear app to embed for object 'testRelease'. (n)
+No dependencies
+
+testRuntimeOnly - Runtime only dependencies for 'test' sources. (n)
+No dependencies
+
+testWearApp - Link to a wear app to embed for object 'test'. (n)
+No dependencies
+
+wearApp - Link to a wear app to embed for object 'main'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed

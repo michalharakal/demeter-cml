@@ -4,5 +4,6 @@ import com.fiwio.iot.demeter.domain.model.schedule.ActionEvents
 
 
 interface SchedulesRepository {
-    val excludedEvents: ActionEvents
+    fun getDailyEvents(): ActionEvents
+    fun writeDailyActions(actions:ActionEvents)
 }

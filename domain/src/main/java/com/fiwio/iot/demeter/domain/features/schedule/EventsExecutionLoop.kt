@@ -9,11 +9,11 @@ private val logger = KotlinLogging.logger {}
 
 class EventsExecutionLoop(val timeProvider: TimeProvider, val eventsGateway: EventsGateway, val fsmGateway: FsmGateway) {
     fun loop() {
+        //logger.debug { "tick" }
         val currentTime = timeProvider.getCurrentTime()
         val event = eventsGateway.getEvent(currentTime)
-        if (event.branch.length > 0) {
-            fsmGateway.fireEvent(event.branch, event.command)
+        if (event.triggerEvent) {
+            fsmGateway.fireEvent(event.event.branch, event.event.command)
         }
-        Thread.sleep(1000)
     }
 }

@@ -4,9 +4,9 @@ import com.fatboyindustrial.gsonjodatime.Converters
 import com.fiwio.iot.demeter.domain.features.fsm.FsmGateway
 import com.fiwio.iot.demeter.domain.features.tracking.EventTracker
 import com.fiwio.iot.demeter.domain.gateway.DeviceGateway
-import com.fiwio.iot.demeter.domain.gateway.Scheduler
 import com.fiwio.iot.demeter.domain.model.fsm.StateMachines
 import com.fiwio.iot.demeter.domain.model.io.Actuator
+import com.fiwio.iot.demeter.domain.repository.SchedulesRepository
 import com.fiwio.iot.demeter.remote.http.mapper.DemeterMapper
 import com.fiwio.iot.demeter.remote.http.mapper.SchedulesMapper
 import com.fiwo.iot.demeter.api.model.ScheduledEvents
@@ -21,7 +21,7 @@ import javax.inject.Inject
 class DemeterHttpServer @Inject constructor(
         private val deviceGateway: DeviceGateway, private val fsmGateway: FsmGateway,
         private val demeterMapper: DemeterMapper, private val eventTracker: EventTracker,
-        private val scheduler: Scheduler,
+        private val schedulesRepository: SchedulesRepository,
         val scheduleMapper: SchedulesMapper)
     : NanoHTTPD(8080) {
 
@@ -123,7 +123,7 @@ class DemeterHttpServer @Inject constructor(
 
 
     private fun getScheduleStatus(): ScheduledEvents {
-        return scheduleMapper.map(scheduler.excludedEvents())
+        return scheduleMapper.map(schedulesRepository.getDailyEvents())
     }
 
     private fun postFsmRequest(fromJson: TriggerEvent) {

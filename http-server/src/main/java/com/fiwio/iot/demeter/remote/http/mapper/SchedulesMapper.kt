@@ -19,7 +19,7 @@ class SchedulesMapper @Inject constructor() {
     private fun mapScheduledEvent(event: ActionEvent): ScheduledEvent {
         val result = ScheduledEvent()
         with(result) {
-            id = event.id
+            id = 0
             command = event.command
             fsm = event.branch
             time = DateTime.now()

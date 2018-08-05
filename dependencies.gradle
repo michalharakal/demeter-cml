@@ -286,7 +286,9 @@ ext {
             jodaTime           : "joda-time:joda-time:${jodaTimeVersion}",
             jodaTimeGson       : "com.fatboyindustrial.gson-jodatime-serialisers:gson-jodatime-serialisers:${retrofitJodaTimeSerializerVersion}",
             okHttpLogger       : "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
-            easyFlow           : "au.com.datasymphony:EasyFlow:${easyFlowVersion}"
+            easyFlow           : "au.com.datasymphony:EasyFlow:${easyFlowVersion}",
+            jodaTime           : "joda-time:joda-time:${jodaTimeVersion}"
+
 
     ]
 
@@ -324,7 +326,8 @@ ext {
             daggerSupport      : "com.google.dagger:dagger-android-support:${daggerVersion}",
             daggerProcessor    : "com.google.dagger:dagger-android-processor:${daggerVersion}",
             easyFlow           : "au.com.datasymphony:EasyFlow:${easyFlowVersion}",
-            nanohttpd          : "org.nanohttpd:nanohttpd:${nanoHttpVersion}"
+            nanohttpd          : "org.nanohttpd:nanohttpd:${nanoHttpVersion}",
+            jodaTime           : "joda-time:joda-time:${jodaTimeVersion}"
     ]
 
     cmlTestDependencies = [

@@ -24,13 +24,13 @@ public class NdsService {
 
     public void startServer(final String serviceName, final Handler handler) {
 
-        String fullServiceName = SERVICE_PREFIX + serviceName;
+        String fullServiceName = serviceName;
         NsdServiceInfo serviceInfo = new NsdServiceInfo();
         serviceInfo.setServiceName(fullServiceName);
         serviceInfo.setServiceType(SERVICE_TYPE);
-        serviceInfo.setPort(8080);
+        serviceInfo.setPort(8090);
 
-        serviceRegistrationListener = new RegistrationListener(fullServiceName, 8080,
+        serviceRegistrationListener = new RegistrationListener(fullServiceName, 8090,
                 handler);
         mNsdManager.registerService(serviceInfo, NsdManager.PROTOCOL_DNS_SD, serviceRegistrationListener);
 

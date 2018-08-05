@@ -3,6 +3,7 @@ package com.fiwio.iot.demeter.hw.features.io;
 import com.fiwio.iot.demeter.domain.features.fsm.GardenFiniteStateMachine;
 import com.fiwio.iot.demeter.domain.features.io.BranchesInteractorsProvider;
 import com.fiwio.iot.demeter.domain.features.io.IOInteractor;
+import com.fiwio.iot.demeter.hw.model.DigitalPins;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,8 +1,10 @@
 package com.fiwio.iot.demeter.hw.mock;
 
-import com.fiwio.iot.demeter.hw.features.io.DigitalIoCallback;
-import com.fiwio.iot.demeter.hw.features.io.DigitalPins;
 import com.fiwio.iot.demeter.hw.model.DigitalIO;
+import com.fiwio.iot.demeter.domain.features.io.DigitalIoCallback;
+import com.fiwio.iot.demeter.hw.model.DigitalIoType;
+import com.fiwio.iot.demeter.hw.model.DigitalPins;
+import com.fiwio.iot.demeter.hw.model.DigitalValue;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,12 +17,12 @@ public class MockDigitalPins implements DigitalPins {
     private List<DigitalIO> relays = new ArrayList<>();
 
     public MockDigitalPins() {
-        relays.add(new MockDigitalIO("BCM23"));
-        relays.add(new MockDigitalIO("BCM24"));
-        relays.add(new MockDigitalIO("BCM22"));
+        relays.add(new MockDigitalIO(DigitalValue.ON, "BCM23", DigitalIoType.OUTPUT));
+        relays.add(new MockDigitalIO(DigitalValue.ON, "BCM24", DigitalIoType.OUTPUT));
+        relays.add(new MockDigitalIO(DigitalValue.ON, "BCM22", DigitalIoType.OUTPUT));
 
-        inputs.add(new MockDigitalIO("BCM26"));
-        inputs.add(new MockDigitalIO("BCM16"));
+        inputs.add(new MockDigitalIO(DigitalValue.ON, "BCM26", DigitalIoType.INPUT));
+        inputs.add(new MockDigitalIO(DigitalValue.ON, "BCM16", DigitalIoType.INPUT));
     }
 
     @Override

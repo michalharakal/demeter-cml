@@ -37,9 +37,9 @@ public class GardenFiniteStateMachine {
      *
      * @param command
      */
-    public void trigger(String branchName, String command) {
-
+    public boolean trigger(String branchName, String command) {
         if (command != null && (!"".equals(command))) {
+            branchName = checkFillingOnlyWithFlowers(branchName, command);
             if (branches.containsKey(branchName)) {
                 StatefulContext ctx = branches.get(branchName);
                 for (Events event : Events.values()) {
@@ -47,6 +47,7 @@ public class GardenFiniteStateMachine {
                         tracker.track("fired trigger=" + ctx.getId() + "-" + command + "<<<");
                         try {
                             flower_flow.trigger(event, (FlowContext) ctx);
+                            return true;
                         } catch (LogicViolationError logicViolationError) {
                             tracker.track(
                                     "error fired trigger="
@@ -61,6 +62,47 @@ public class GardenFiniteStateMachine {
                 }
             }
         }
+        return false;
+    }
+
+    public boolean stopFillingBranches() {
+        boolean result = false;
+        for (Map.Entry<String, StatefulContext> entry : branches.entrySet()) {
+            if (entry.getValue().getState() == States.BARREL_FILLING) {
+                result = true;
+                try {
+                    entry.getValue().trigger(Events.stop);
+                } catch (LogicViolationError logicViolationError) {
+                    tracker.track(
+                            "stopFillingBranches error fired trigger="
+                                    + entry.getValue().getId()
+                                    + "-"
+                                    + "stop"
+                                    + ">>>"
+                                    + logicViolationError.getMessage());
+                }
+            }
+        }
+        return result;
+    }
+
+
+    private String checkFillingOnlyWithFlowers(String branchName, String command) {
+        try {
+            Events commnadEvent = Events.stop;
+            for (Events event : Events.values()) {
+                if (event.fieldDescription.equals(command)) {
+                    commnadEvent = event;
+                    break;
+                }
+            }
+            if ((branchName.equals(GardenFiniteStateMachine.BRANCH_GARDEN) && (commnadEvent == Events.fillingStart))) {
+                branchName = GardenFiniteStateMachine.BRANCH_FLOWERS;
+            }
+        } catch (IllegalArgumentException ex) {
+
+        }
+        return branchName;
     }
 
     public List<StatefulContext> getBranches() {
@@ -135,7 +177,9 @@ public class GardenFiniteStateMachine {
                                                         .transit(
                                                                 FlowBuilder.on(Events.stop).to(States.CLOSING),
                                                                 FlowBuilder.on(Events.barrelFull).to(States.CLOSING)),
-                                                FlowBuilder.on(Events.stop).to(States.CLOSING)));
+                                                FlowBuilder.on(Events.stop).to(States.CLOSING)),
+                                FlowBuilder.on(Events.barrelFull).to(States.CLOSING),
+                                FlowBuilder.on(Events.stop).to(States.CLOSING));
 
         flower_flow.whenEnter(
                 States.CLOSED,
@@ -259,39 +303,12 @@ public class GardenFiniteStateMachine {
                                 .start();
                     }
                 });
+
         flower_flow.trace();
     }
 
     private static long intoMs(long valueInSec) {
         return valueInSec * 1000;
-    }
-
-    /*
-    public void onFireFsmEvent(FireFsmEvent event) {
-        if (branches.containsKey(event.fmsName)) {
-            if (Events.stop.getText().equals(event.command)) {
-                alwaysStop(event.fmsName);
-                StatefulContext ctx = branches.get(event.fmsName);
-                ((FlowContext) ctx).ioInteractor.closeAllVentils(ctx);
-            }
-            trigger(event.fmsName, event.command);
-        }
-    }
-
-    public void onFireFsmStopEvent(FireFsmStopEvent event) {
-        if (branches.containsKey(event.fmsName)) {
-            alwaysStop(event.fmsName);
-        }
-    }
-    */
-
-    private void alwaysStop(String fmsName) {
-        StatefulContext ctx = branches.get(fmsName);
-        if (getState(ctx) != States.CLOSED) {
-            trigger(fmsName, Events.stop.getText());
-        } else {
-            ((FlowContext) ctx).ioInteractor.closeAllVentils();
-        }
     }
 
     public StatefulContext run(

@@ -98,7 +98,7 @@ public class PiFaceDigital2 implements AutoCloseable {
         mSpiDevice.setFrequency(10000000); // 10MHz
         mSpiDevice.setMode(SpiDevice.MODE0); // Mode 0 seems to work best for PiFaceDigital2
         mSpiDevice.setBitsPerWord(8);
-        mSpiDevice.setBitJustification(SpiDevice.MODE0);
+//        mSpiDevice.setBitJustification(SpiDevice.MODE0);
 
         mHandler = new Handler();
         mRunnable = new Runnable() {

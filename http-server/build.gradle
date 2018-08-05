@@ -1,0 +1,23 @@
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencies {
+    compile project(':domain')
+    compile project(':client-api')
+
+    def httpDependencies = rootProject.ext.httpDependencies
+
+    implementation httpDependencies.javaxAnnotation
+
+    implementation httpDependencies.kotlin
+    implementation httpDependencies.javaxInject
+    implementation httpDependencies.rxKotlin
+    implementation httpDependencies.gson
+    implementation httpDependencies.jodaTime
+    implementation(httpDependencies.jodaTimeGson) {
+        exclude group: 'joda-time', module: 'joda-time'
+    }
+    implementation httpDependencies.nanohttpd
+}

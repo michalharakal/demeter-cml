@@ -5,56 +5,48 @@ import android.util.Log;
 import com.fiwio.iot.demeter.hw.model.DigitalIO;
 import com.fiwio.iot.demeter.hw.model.DigitalIoType;
 import com.fiwio.iot.demeter.hw.model.DigitalValue;
-import com.google.android.things.pio.Gpio;
-import com.google.android.things.pio.PeripheralManager;
+import com.martingregor.PiFaceDigital2;
 
-import java.io.IOException;
+import org.jetbrains.annotations.NotNull;
 
 
 public class DemeterRelay implements DigitalIO {
-
     private static final String TAG = DemeterRelay.class.getSimpleName();
 
-    private Gpio mLedGpio;
-    private final String name;
+    private final PiFaceDigital2 mPiFaceDigital2;
 
-    public DemeterRelay(PeripheralManager gpio, String ioName) {
+    private final String name;
+    private final int relayIndex;
+    private DigitalValue mLastValue;
+
+    public DemeterRelay(final PiFaceDigital2 mPiFaceDigital2, final int relayIndex, String ioName) {
         this.name = ioName;
-        try {
-            mLedGpio = gpio.openGpio(ioName);
-            mLedGpio.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
-        } catch (IOException e) {
-            Log.e(TAG, "Error on PeripheralIO API", e);
-        }
+        this.relayIndex = relayIndex;
+        this.mPiFaceDigital2 = mPiFaceDigital2;
+        this.mLastValue = DigitalValue.OFF;
     }
 
     @Override
     public void setValue(DigitalValue value) {
-        try {
-            mLedGpio.setValue(value == DigitalValue.ON ? true : false);
-            Log.d(TAG, getName() + ((value == DigitalValue.ON) ? "ON" : "OFF"));
-        } catch (IOException e) {
-            Log.e(TAG, "error setting Relay " + name);
-        }
+        mLastValue = value;
+        mPiFaceDigital2.setLED(relayIndex, value == DigitalValue.ON ? true : false);
+        Log.d(TAG, getName() + ((value == DigitalValue.ON) ? "ON" : "OFF"));
+
     }
 
     @Override
     public DigitalValue getValue() {
-        try {
-            return mLedGpio.getValue() ? DigitalValue.ON : DigitalValue.OFF;
-        } catch (IOException e) {
-            Log.e(TAG, "error getting Relay " + name);
-        }
-        return DigitalValue.OFF;
-    }
-
-    @Override
-    public DigitalIoType getType() {
-        return DigitalIoType.OUTPUT;
+        return mLastValue;
     }
 
     @Override
     public String getName() {
         return name;
+    }
+
+    @NotNull
+    @Override
+    public DigitalIoType getType() {
+        return DigitalIoType.OUTPUT;
     }
 }

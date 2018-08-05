@@ -1,1 +1,1 @@
-include ':client-api', ':data', ':domain', ':app', ':local-storage', ':pifacedigital2', ':hw-gateway'
+include ':client-api', ':domain', ':app', ':pifacedigital2', ':hw-gateway', ':http-server', ':data', ':local-storage'

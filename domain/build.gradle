@@ -40,7 +40,13 @@ dependencies {
     implementation domainDependencies.javaxInject
     implementation domainDependencies.rxKotlin
     implementation domainDependencies.kotlin
-    implementation domainDependencies.easyFlow
+    implementation domainDependencies.kotlinLogging
+    implementation domainDependencies.jodaTime
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+
+    implementation (domainDependencies.easyFlow) {
+        exclude group: "org.slf4j"
+    }
 
 
     testImplementation domainTestDependencies.junit

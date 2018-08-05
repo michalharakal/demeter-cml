@@ -8,4 +8,6 @@ public interface IOInteractor {
     void openBarrel();
 
     void closeAllVentils();
+
+    void barrelPumpOff();
 }

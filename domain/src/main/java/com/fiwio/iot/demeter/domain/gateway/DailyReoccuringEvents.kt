@@ -9,5 +9,4 @@ class DailyReoccuringEvents(actionsRepository: SchedulesRepository) : EventsGate
     override fun getEvent(currentTime: DayTime): EitherEvent {
         return EitherEvent(false, ActionEvent("dummy", "", "", DayTime(0, 0, 0)))
     }
-
 }

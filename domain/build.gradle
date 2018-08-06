@@ -44,14 +44,15 @@ dependencies {
     implementation domainDependencies.jodaTime
     implementation 'org.slf4j:slf4j-api:1.7.25'
 
-    implementation (domainDependencies.easyFlow) {
+    implementation(domainDependencies.easyFlow) {
         exclude group: "org.slf4j"
     }
 
-
+    testImplementation domainTestDependencies.kotlin
+    testImplementation domainTestDependencies.kotlinTest
+    testImplementation domainTestDependencies.robolectric
     testImplementation domainTestDependencies.junit
     testImplementation domainTestDependencies.mockito
-    testImplementation domainTestDependencies.assertj
-    //testImplementation domainTestDependencies.logback
+    testImplementation domainTestDependencies.kluent
 }
 

@@ -5,15 +5,12 @@ import android.content.Context
 import com.fatboyindustrial.gsonjodatime.Converters
 import com.fiwio.iot.demeter.BuildConfig
 import com.fiwio.iot.demeter.android.cache.repository.GsonSchedulesCache
-import com.fiwio.iot.demeter.app.DemeterApplication
 import com.fiwio.iot.demeter.app.JobExecutor
-import com.fiwio.iot.demeter.app.UiThread
 import com.fiwio.iot.demeter.data.mapper.ActionEventsMapper
 import com.fiwio.iot.demeter.data.repository.SchedulesCache
 import com.fiwio.iot.demeter.data.repository.SchedulesDataRepository
 import com.fiwio.iot.demeter.data.repository.SchedulesLocalDataStore
 import com.fiwio.iot.demeter.discovery.NdsService
-import com.fiwio.iot.demeter.domain.core.executor.PostExecutionThread
 import com.fiwio.iot.demeter.domain.core.executor.ThreadExecutor
 import com.fiwio.iot.demeter.domain.features.configuration.ConfigurationProvider
 import com.fiwio.iot.demeter.domain.features.fsm.FsmGateway
@@ -24,9 +21,7 @@ import com.fiwio.iot.demeter.domain.features.tracking.EventTracker
 import com.fiwio.iot.demeter.domain.gateway.DailyReoccuringEvents
 import com.fiwio.iot.demeter.domain.gateway.DeviceGateway
 import com.fiwio.iot.demeter.domain.gateway.EventsGateway
-import com.fiwio.iot.demeter.domain.gateway.Scheduler
 import com.fiwio.iot.demeter.domain.model.io.Versions
-import com.fiwio.iot.demeter.domain.model.schedule.ActionEvents
 import com.fiwio.iot.demeter.domain.model.schedule.DayTime
 import com.fiwio.iot.demeter.domain.repository.SchedulesRepository
 import com.fiwio.iot.demeter.fsm.DemeterConfigurationProvider
@@ -55,7 +50,7 @@ private val logger = KotlinLogging.logger {}
  * Module used to provide dependencies at an application-level.
  */
 @Module
-open class ApplicationModule() {
+open class ApplicationModule {
 
 
     @Provides
@@ -66,11 +61,6 @@ open class ApplicationModule() {
     @Provides
     internal fun provideThreadExecutor(jobExecutor: JobExecutor): ThreadExecutor {
         return jobExecutor
-    }
-
-    @Provides
-    internal fun providePostExecutionThread(uiThread: UiThread): PostExecutionThread {
-        return uiThread
     }
 
     @Provides
@@ -144,16 +134,6 @@ open class ApplicationModule() {
 
     @Provides
     @Singleton
-    fun provideScheduler(): Scheduler {
-        return object : Scheduler {
-            override fun excludedEvents(): ActionEvents {
-                return ActionEvents(actionEvents = emptyList())
-            }
-        }
-    }
-
-    @Provides
-    @Singleton
     fun provideTimeProvider(): TimeProvider {
         return object : TimeProvider {
             override fun getCurrentTime(): DayTime {
@@ -186,8 +166,8 @@ open class ApplicationModule() {
 
     @Provides
     @Singleton
-    fun provideSchedulesCache(gson: Gson): SchedulesCache {
-        val baseCacheFolder = DemeterApplication.instance.filesDir.absolutePath
+    fun provideSchedulesCache(gson: Gson, context: Context): SchedulesCache {
+        val baseCacheFolder = context.filesDir.absolutePath
 
         return GsonSchedulesCache(baseCacheFolder, gson)
     }

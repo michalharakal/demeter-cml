@@ -46,7 +46,7 @@ ext {
     nanoHttpVersion = '2.2.0'
 
     //Testing
-    robolectricVersion = '3.4.2'
+    robolectricVersion = '3.8'
     jUnitVersion = '4.12'
     assertJVersion = '3.8.0'
     mockitoVersion = '1.9.5'
@@ -60,6 +60,7 @@ ext {
     dexmakerMockitoversion = '2.2.0'
     meanBeanVersion = '2.0.3'
     logbackVersion = '1.2.3'
+    kluent_version = '1.14'
 
     domainDependencies = [
             javaxAnnotation: "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
@@ -73,11 +74,15 @@ ext {
     ]
 
     domainTestDependencies = [
-            junit   : "junit:junit:${jUnitVersion}",
-            mockito : "com.nhaarman:mockito-kotlin:${mockitoKotlinVersion}",
-            assertj : "org.assertj:assertj-core:${assertJVersion}",
-            meanBean: "org.meanbean:meanbean:${meanBeanVersion}",
-            logback : "ch.qos.logback:logback-classic:${logbackVersion}"
+            junit      : "junit:junit:${jUnitVersion}",
+            mockito    : "com.nhaarman:mockito-kotlin:${mockitoKotlinVersion}",
+            assertj    : "org.assertj:assertj-core:${assertJVersion}",
+            meanBean   : "org.meanbean:meanbean:${meanBeanVersion}",
+            logback    : "ch.qos.logback:logback-classic:${logbackVersion}",
+            kotlin     : "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
+            kotlinTest : "org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion",
+            robolectric: "org.robolectric:robolectric:$robolectricVersion",
+            kluent     : "org.amshove.kluent:kluent:$kluent_version"
 
     ]
 
@@ -332,8 +337,6 @@ ext {
 
     cmlTestDependencies = [
             junit          : "junit:junit:${jUnitVersion}",
-            kotlinJUnit    : "org.jetbrains.kotlin:kotlin-test-junit:${kotlin_version}",
-            assertj        : "org.assertj:assertj-core:${assertJVersion}",
             mockito        : "com.nhaarman:mockito-kotlin:${mockitoKotlinVersion}",
             supportRunner  : "com.android.support.test:runner:${androidSupportRunnerVersion}",
             supportRules   : "com.android.support.test:rules:${androidSupportRulesVersion}",
@@ -342,6 +345,10 @@ ext {
             espressoIntents: "com.android.support.test.espresso:espresso-intents:${espressoVersion}",
             espressoContrib: "com.android.support.test.espresso:espresso-contrib:${espressoVersion}",
             androidRunner  : "com.android.support.test:runner:${androidSupportRunnerVersion}",
-            androidRules   : "com.android.support.test:runner:${androidSupportRunnerVersion}"
+            androidRules   : "com.android.support.test:runner:${androidSupportRunnerVersion}",
+            kotlin         : "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
+            kotlinTest     : "org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion",
+            robolectric    : "org.robolectric:robolectric:$robolectricVersion",
+            kluent         : "org.amshove.kluent:kluent:$kluent_version"
     ]
 }

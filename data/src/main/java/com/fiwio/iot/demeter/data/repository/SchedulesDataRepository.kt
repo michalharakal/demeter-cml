@@ -5,9 +5,6 @@ import com.fiwio.iot.demeter.domain.model.schedule.ActionEvents
 import com.fiwio.iot.demeter.domain.repository.SchedulesRepository
 
 class SchedulesDataRepository : SchedulesRepository {
-    override fun writeDailyActions(actions: ActionEvents) {
-        localDataStore.writeDailyActions(actionMapper.mapToEntity(actions))
-    }
 
     val localDataStore: SchedulesLocalDataStore
     val actionMapper: ActionEventsMapper
@@ -19,5 +16,9 @@ class SchedulesDataRepository : SchedulesRepository {
 
     override fun getDailyEvents(): ActionEvents {
         return actionMapper.mapFromEntity(localDataStore.getDailyActions())
+    }
+
+    override fun writeDailyActions(actions: ActionEvents) {
+        localDataStore.writeDailyActions(actionMapper.mapToEntity(actions))
     }
 }

@@ -18,7 +18,7 @@ class DemeterConfigurationProvider() : ConfigurationProvider {
         branches[GardenFiniteStateMachine.BRANCH_GARDEN] = BranchValveParameters(
                 openingDurationSec = TWENTY_SECS,
                 fillingDurationSec = THIRTY_MINUTES_IN_SECS,
-                actionDurationSec = FIVE_MINUTES_IN_SECS)
+                actionDurationSec = FIVETEEN_MINUTES_IN_SECS)
     }
 
     private fun createFlowers() {
@@ -32,7 +32,7 @@ class DemeterConfigurationProvider() : ConfigurationProvider {
         branches[GardenFiniteStateMachine.BRANCH_GREENHOUSE] = BranchValveParameters(
                 openingDurationSec = TWENTY_SECS,
                 fillingDurationSec = THIRTY_MINUTES_IN_SECS,
-                actionDurationSec = FIVE_MINUTES_IN_SECS)
+                actionDurationSec = FIVETEEN_MINUTES_IN_SECS)
     }
 
 

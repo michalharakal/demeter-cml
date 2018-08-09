@@ -1,10 +1,13 @@
 package com.fiwio.iot.demeter.app
 
-import android.app.Application
-import com.fiwio.iot.demeter.android.ui.injection.ApplicationComponent
-import com.fiwio.iot.demeter.android.ui.injection.DaggerApplicationComponent
+import android.content.Context
+import android.support.multidex.MultiDex
+import android.support.multidex.MultiDexApplication
+import com.fiwio.iot.demeter.app.injection.ApplicationComponent
+import com.fiwio.iot.demeter.app.injection.DaggerApplicationComponent
 
-class DemeterApplication : Application() {
+
+class DemeterApplication : MultiDexApplication() {
     lateinit var component: ApplicationComponent
 
     override fun onCreate() {
@@ -17,6 +20,11 @@ class DemeterApplication : Application() {
         component.inject(this)
 
         AndroidLoggingHandler.reset(AndroidLoggingHandler())
+    }
+
+    override fun attachBaseContext(base: Context) {
+        super.attachBaseContext(base)
+        MultiDex.install(this)
     }
 
     override fun getSystemService(name: String?): Any {

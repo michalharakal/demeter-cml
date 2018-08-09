@@ -9,7 +9,7 @@ import com.fiwio.iot.demeter.domain.model.io.Demeter
 import io.reactivex.Single
 import javax.inject.Inject
 
-open class SwitchActuator @Inject constructor(val demeterRepository: DeviceGateway,
+class SwitchActuator @Inject constructor(val demeterRepository: DeviceGateway,
                                               threadExecutor: ThreadExecutor,
                                               postExecutionThread: PostExecutionThread) :
         SingleUseCase<Demeter, Actuator>(threadExecutor, postExecutionThread) {

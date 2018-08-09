@@ -11,27 +11,6 @@ configurations.all {
     }
 }
 
-jacocoTestReport {
-    reports {
-        xml {
-            enabled true // coveralls plugin depends on xml format report
-        }
-
-        html {
-            enabled true
-        }
-    }
-
-    afterEvaluate {
-        classDirectories = files(classDirectories.files.collect {
-            fileTree(dir: it,
-                    exclude: [
-                            '**/demeter/domain/model'
-                    ])
-        })
-    }
-}
-
 dependencies {
     def domainDependencies = rootProject.ext.domainDependencies
     def domainTestDependencies = rootProject.ext.domainTestDependencies

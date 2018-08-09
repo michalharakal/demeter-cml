@@ -1,11 +1,10 @@
-package com.fiwio.iot.demeter.android.ui.injection
+package com.fiwio.iot.demeter.app.injection
 
 import android.app.Application
 import com.fiwio.iot.demeter.android.ui.feature.main.di.MainComponent
 import com.fiwio.iot.demeter.android.ui.feature.main.di.MainModule
 import com.fiwio.iot.demeter.android.ui.feature.refresh.di.RefreshServiceComponent
 import com.fiwio.iot.demeter.android.ui.feature.refresh.di.RefreshServiceModule
-import com.fiwio.iot.demeter.app.DemeterApplication
 import com.fiwio.iot.demeter.events.di.SchedulerServiceComponent
 import com.fiwio.iot.demeter.events.di.SchedulerServiceModule
 import dagger.BindsInstance

@@ -34,6 +34,8 @@ android {
         buildConfigField "String", "BUILD_TIME", "\"${buildTime}\""
         buildConfigField "String", "HW_VERSION", "\"2.0\""
 
+        multiDexEnabled true
+
     }
 
     buildTypes {
@@ -89,6 +91,8 @@ dependencies {
     implementation(project(path: ':local-storage')) {
         exclude module: 'joda-time'
     }
+    implementation project(path: ':firebase')
+
 
 
     def cmlDependencies = rootProject.ext.cmlDependencies
@@ -104,10 +108,12 @@ dependencies {
         exclude module: 'joda-time'
     }
     implementation cmlDependencies.dagger
-    implementation cmlDependencies.daggerSupport
     implementation cmlDependencies.nanohttpd
     implementation cmlDependencies.jodaTime
-
+    implementation cmlDependencies.appCompatV7
+    implementation cmlDependencies.multidex
+    implementation cmlDependencies.okHttp
+    implementation cmlDependencies.okHttpLogger
 
     // implementation group: 'com.evernote', name: 'android-job', version: '1.2.6'
 
@@ -133,3 +139,5 @@ dependencies {
 
     compileOnly 'com.google.android.things:androidthings:1.0'
 }
+
+apply plugin: 'com.google.gms.google-services'

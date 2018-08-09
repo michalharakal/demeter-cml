@@ -1,4 +1,4 @@
-package com.fiwio.iot.demeter.android.ui.injection
+package com.fiwio.iot.demeter.app.injection
 
 import android.app.Application
 import android.content.Context
@@ -18,16 +18,16 @@ import com.fiwio.iot.demeter.domain.features.fsm.GardenFiniteStateMachine
 import com.fiwio.iot.demeter.domain.features.io.BranchesInteractorsProvider
 import com.fiwio.iot.demeter.domain.features.schedule.TimeProvider
 import com.fiwio.iot.demeter.domain.features.tracking.EventTracker
-import com.fiwio.iot.demeter.domain.gateway.DailyReoccuringEvents
-import com.fiwio.iot.demeter.domain.gateway.DeviceGateway
-import com.fiwio.iot.demeter.domain.gateway.EventsGateway
+import com.fiwio.iot.demeter.domain.gateway.*
 import com.fiwio.iot.demeter.domain.model.io.Versions
 import com.fiwio.iot.demeter.domain.model.schedule.DayTime
 import com.fiwio.iot.demeter.domain.repository.SchedulesRepository
+import com.fiwio.iot.demeter.firebase.SendFirebaseData
 import com.fiwio.iot.demeter.fsm.DemeterConfigurationProvider
 import com.fiwio.iot.demeter.fsm.DemeterFsmGateway
 import com.fiwio.iot.demeter.hw.features.io.DemeterBranchesInteractorProvider
 import com.fiwio.iot.demeter.hw.gateway.DemeterDeviceGateway
+import com.fiwio.iot.demeter.hw.gateway.MacAddressIdProvider
 import com.fiwio.iot.demeter.hw.mapper.InputValueMapper
 import com.fiwio.iot.demeter.hw.mapper.OutputValueMapper
 import com.fiwio.iot.demeter.hw.mock.MockDigitalPins
@@ -39,6 +39,9 @@ import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
 import mu.KotlinLogging
+import okhttp3.Cache
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
 import org.joda.time.LocalTime
 import java.io.IOException
 import javax.inject.Singleton
@@ -63,6 +66,21 @@ open class ApplicationModule {
         return jobExecutor
     }
 
+    @Singleton
+    @Provides
+    fun providOkHttpClient(application: Application): OkHttpClient {
+
+        val cacheSize = 10 * 1024 * 1024L // 10 MB
+        val cache = Cache(application.getCacheDir(), cacheSize)
+
+        val interceptor = HttpLoggingInterceptor(HttpLoggingInterceptor.Logger { it -> logger.info { it } })
+        interceptor.level = HttpLoggingInterceptor.Level.BODY
+        return OkHttpClient.Builder()
+                .addInterceptor(interceptor)
+                .cache(cache)
+                .build()
+    }
+
     @Provides
     @Singleton
     fun provideGson(): Gson {
@@ -79,10 +97,17 @@ open class ApplicationModule {
 
     @Provides
     @Singleton
-    fun provideEventTracker(): EventTracker {
+    fun providePushNotificationsGateway(okhttpClient: OkHttpClient, gson: Gson, idProvider: IdProvider): PushNotificationsGateway {
+        return SendFirebaseData(okhttpClient, gson, idProvider)
+    }
+
+    @Provides
+    @Singleton
+    fun provideEventTracker(pushNotificationsGateway: PushNotificationsGateway): EventTracker {
         return object : EventTracker {
             override fun track(event: String) {
                 logger.debug { event }
+                pushNotificationsGateway.sendPush("events", event)
             }
         }
     }
@@ -171,4 +196,12 @@ open class ApplicationModule {
 
         return GsonSchedulesCache(baseCacheFolder, gson)
     }
+
+    @Provides
+    @Singleton
+    fun provideIdProvider(deviceGateway: DeviceGateway): IdProvider {
+        return MacAddressIdProvider(deviceGateway)
+
+    }
+
 }

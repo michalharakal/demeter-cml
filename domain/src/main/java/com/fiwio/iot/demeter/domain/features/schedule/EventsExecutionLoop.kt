@@ -1,19 +1,21 @@
 package com.fiwio.iot.demeter.domain.features.schedule
 
 import com.fiwio.iot.demeter.domain.features.fsm.FsmGateway
+import com.fiwio.iot.demeter.domain.features.tracking.EventTracker
 import com.fiwio.iot.demeter.domain.gateway.EventsGateway
+import com.fiwio.iot.demeter.domain.model.schedule.DayTime
 import mu.KotlinLogging
 
 
 private val logger = KotlinLogging.logger {}
 
-class EventsExecutionLoop(val timeProvider: TimeProvider, val eventsGateway: EventsGateway, val fsmGateway: FsmGateway) {
-    fun loop() {
-        //logger.debug { "tick" }
-        val currentTime = timeProvider.getCurrentTime()
+class EventsExecutionLoop(val eventsGateway: EventsGateway, val fsmGateway: FsmGateway, val eventTracker: EventTracker) {
+    fun handleSchedulerTick(currentTime: DayTime) {
         val event = eventsGateway.getEvent(currentTime)
-        if (event.triggerEvent) {
-            fsmGateway.fireEvent(event.event.branch, event.event.command)
+        event.actionEvents.map { action ->
+            logger.debug { "executing $event" }
+            eventTracker.track("executing $event")
+            fsmGateway.fireEvent(action.branch, action.command)
         }
     }
 }

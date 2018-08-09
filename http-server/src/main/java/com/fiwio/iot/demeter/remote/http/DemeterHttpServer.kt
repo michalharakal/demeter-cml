@@ -80,6 +80,10 @@ class DemeterHttpServer @Inject constructor(
                     postFsmRequest(gson.fromJson<TriggerEvent>(postBody, TriggerEvent::class.java))
                     return createJsonResponseFromObject(getFsmStatus())
                 }
+                if (path.contains("schedule")) {
+                    postScheduleRequest(gson.fromJson<ScheduledEvents>(postBody, ScheduledEvents::class.java))
+                    return createJsonResponseFromObject(getScheduleStatus())
+                }
                 /*
                 if (path.contains("schedule")) {
 
@@ -121,14 +125,18 @@ class DemeterHttpServer @Inject constructor(
         return createJsonResponseFromObject(getDemeterStatus())
     }
 
-
     private fun getScheduleStatus(): ScheduledEvents {
-        return scheduleMapper.map(schedulesRepository.getDailyEvents())
+        return scheduleMapper.mapFromActions(schedulesRepository.getDailyEvents())
     }
 
     private fun postFsmRequest(fromJson: TriggerEvent) {
         fsmGateway.fireEvent(branch = fromJson.fsm, event = fromJson.command)
     }
+
+    private fun postScheduleRequest(fromJson: ScheduledEvents) {
+        schedulesRepository.writeDailyActions(scheduleMapper.mapToActions(fromJson))
+    }
+
 
     private fun getDemeterStatus(): com.fiwo.iot.demeter.api.model.Demeter {
         return demeterMapper.map(deviceGateway.getDeviceImage(), deviceGateway.getVersions(), deviceGateway.getNetwork())

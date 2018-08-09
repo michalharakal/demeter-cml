@@ -2,7 +2,7 @@ package com.fiwio.iot.demeter.android.ui.ext
 
 import android.content.Context
 
-import com.fiwio.iot.demeter.android.ui.injection.ApplicationComponent
+import com.fiwio.iot.demeter.app.injection.ApplicationComponent
 
 val SERVICE_COMPONENT = "component"
 

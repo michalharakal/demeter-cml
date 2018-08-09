@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration["androidCompileSdkVersion"]
+    buildToolsVersion globalConfiguration["androidBuildToolsVersion"]
+
+    defaultConfig {
+        minSdkVersion globalConfiguration["androidMinSdkVersion"]
+        targetSdkVersion globalConfiguration["androidTargetSdkVersion"]
+        multiDexEnabled = false
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+
+dependencies {
+
+    def firebaseDependencies = rootProject.ext.firebaseDependencies
+    def firebaseTestDependencies = rootProject.ext.firebaseTestDependencies
+
+
+    compile project(':domain')
+
+    implementation firebaseDependencies.kotlin
+    implementation firebaseDependencies.javaxInject
+    implementation firebaseDependencies.rxKotlin
+    implementation firebaseDependencies.gson
+    implementation firebaseDependencies.jodaTime
+    implementation firebaseDependencies.kotlinLogging
+    implementation firebaseDependencies.okHttp
+    implementation firebaseDependencies.firebaseCore
+    implementation firebaseDependencies.firebaseMessaging
+
+    testImplementation firebaseTestDependencies.junit
+    testImplementation firebaseTestDependencies.kotlinJUnit
+    testImplementation firebaseTestDependencies.mockito
+    testImplementation firebaseTestDependencies.assertj
+    testImplementation firebaseTestDependencies.robolectric
+}

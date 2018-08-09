@@ -10,6 +10,7 @@ import com.fiwio.iot.demeter.android.ui.ext.getAppComponent
 import com.fiwio.iot.demeter.domain.features.fsm.FsmGateway
 import com.fiwio.iot.demeter.domain.features.schedule.EventsExecutionLoop
 import com.fiwio.iot.demeter.domain.features.schedule.TimeProvider
+import com.fiwio.iot.demeter.domain.features.tracking.EventTracker
 import com.fiwio.iot.demeter.domain.gateway.EventsGateway
 import com.fiwio.iot.demeter.events.di.SchedulerServiceComponent
 import com.fiwio.iot.demeter.events.di.SchedulerServiceModule
@@ -38,7 +39,11 @@ class SchedulerService : IntentService("SchedulerService") {
     @Inject
     lateinit var fsmGateway: FsmGateway
 
-    lateinit var handler : Handler
+    @Inject
+    lateinit var eventTracker: EventTracker
+
+
+    lateinit var handler: Handler
 
 
     override fun onBind(intent: Intent): IBinder? {
@@ -47,14 +52,7 @@ class SchedulerService : IntentService("SchedulerService") {
 
     private val runnableCode = object : Runnable {
         override fun run() {
-
-            //logger.debug { "Refreshing demeter status" }
-
-            evntLoop.loop();
-
-            //demeterRepository.refresh()
-            // Repeat this the same runnable code block again another 2 seconds
-            // 'this' is referencing the Runnable object
+            evntLoop.handleSchedulerTick(timeProvider.getCurrentTime())
             handler.postDelayed(this, 1000)
         }
     }
@@ -67,12 +65,11 @@ class SchedulerService : IntentService("SchedulerService") {
         component = getAppComponent().plus(SchedulerServiceModule())
         component.inject(this)
 
-        evntLoop =  EventsExecutionLoop(timeProvider, eventsGateway, fsmGateway)
+        evntLoop = EventsExecutionLoop(eventsGateway, fsmGateway, eventTracker)
 
-    //    backgroundJob = SchedulerRunnable.getInstance(timeProvider, eventsGateway, fsmGateway)
+        //    backgroundJob = SchedulerRunnable.getInstance(timeProvider, eventsGateway, fsmGateway)
 
     }
-
 
 
     override fun onHandleIntent(intent: Intent?) {

@@ -1,6 +1,8 @@
 package com.fiwio.iot.demeter.android.cache.repository
 
+import com.fiwio.iot.demeter.data.model.ActionEventEntity
 import com.fiwio.iot.demeter.data.model.ActionEventsEntity
+import com.fiwio.iot.demeter.data.model.DayTimeEntity
 import com.fiwio.iot.demeter.data.repository.SchedulesCache
 import com.google.gson.Gson
 import java.io.*
@@ -11,15 +13,15 @@ class GsonSchedulesCache(private val baseFolder: String, val gson: Gson) : Sched
     }
 
     override fun getDailyActions(): ActionEventsEntity {
-        return ActionEventsEntity(emptyList())
+        return readActions()
     }
 
     private fun getScheduleFullName() = baseFolder + "/schedule.json"
 
-    private val LOCK: Any = Any()
+    private val lock: Any = Any()
 
     fun readActions(): ActionEventsEntity {
-        synchronized(LOCK) {
+        synchronized(lock) {
             val sd = File(getScheduleFullName())
             if (sd.exists()) {
                 val inputStream = FileInputStream(sd)
@@ -32,12 +34,28 @@ class GsonSchedulesCache(private val baseFolder: String, val gson: Gson) : Sched
     }
 
     private fun createDefaultSchedule(): ActionEventsEntity {
-        return ActionEventsEntity(emptyList())
+        return ActionEventsEntity(listOf(
+                ActionEventEntity("zahrada rano", "garden", "irrigate",
+                        DayTimeEntity(7, 0, 0)),
+                ActionEventEntity("zahrada vecer", "garden", "irrigate",
+                        DayTimeEntity(19, 0, 0)),
+                ActionEventEntity("sklenik rano", "greenhouse", "irrigate",
+                        DayTimeEntity(7, 20, 0)),
+                ActionEventEntity("sklenik vecer", "greenhouse", "irrigate",
+                        DayTimeEntity(19, 20, 0)),
+                ActionEventEntity("napousteni rano", "flowers", "fill",
+                        DayTimeEntity(8, 0, 0)),
+                ActionEventEntity("napousteni vecer", "flowers", "fill",
+                        DayTimeEntity(18, 53, 0)),
+                ActionEventEntity("kytky vecer", "flowers", "irrigate",
+                        DayTimeEntity(19, 30, 0))
+
+        ))
     }
 
 
     fun writeSchedule(actions: ActionEventsEntity) {
-        synchronized(LOCK) {
+        synchronized(lock) {
             writeList(getScheduleFullName(), actions)
         }
     }

@@ -100,5 +100,10 @@ public class GardenFiniteStateMachineTest {
         public void closeAllVentils() {
             tracker.track("closeAllVentils");
         }
+
+        @Override
+        public void barrelPumpOff() {
+            tracker.track("barrelPumpOff");
+        }
     }
 }

@@ -14,6 +14,8 @@ class SendNotification @Inject constructor(val pushNotificationsGateway: PushNot
         SingleUseCase<Unit, String>(threadExecutor, postExecutionThread) {
 
     public override fun buildUseCaseObservable(params: String?): Single<Unit> {
-        return Single.just(pushNotificationsGateway.sendPush("events", params!!))
+        return Single.create { singleEmitter ->
+            singleEmitter.onSuccess(pushNotificationsGateway.sendPush("events", params!!))
+        }
     }
 }

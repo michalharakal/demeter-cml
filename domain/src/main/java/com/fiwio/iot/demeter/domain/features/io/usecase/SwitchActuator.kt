@@ -10,11 +10,15 @@ import io.reactivex.Single
 import javax.inject.Inject
 
 class SwitchActuator @Inject constructor(val demeterRepository: DeviceGateway,
-                                              threadExecutor: ThreadExecutor,
-                                              postExecutionThread: PostExecutionThread) :
+                                         threadExecutor: ThreadExecutor,
+                                         postExecutionThread: PostExecutionThread) :
         SingleUseCase<Demeter, Actuator>(threadExecutor, postExecutionThread) {
 
     public override fun buildUseCaseObservable(params: Actuator?): Single<Demeter> {
-        return Single.just(demeterRepository.switchActuator(params as Actuator))
+        return Single.create { singleEmitter ->
+            singleEmitter.onSuccess(
+                    demeterRepository.switchActuator(params as Actuator)
+            )
+        }
     }
 }

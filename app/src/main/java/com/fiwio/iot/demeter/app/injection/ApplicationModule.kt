@@ -6,22 +6,26 @@ import com.fatboyindustrial.gsonjodatime.Converters
 import com.fiwio.iot.demeter.BuildConfig
 import com.fiwio.iot.demeter.android.cache.repository.GsonSchedulesCache
 import com.fiwio.iot.demeter.app.JobExecutor
+import com.fiwio.iot.demeter.app.UiThread
 import com.fiwio.iot.demeter.data.mapper.ActionEventsMapper
 import com.fiwio.iot.demeter.data.repository.SchedulesCache
 import com.fiwio.iot.demeter.data.repository.SchedulesDataRepository
 import com.fiwio.iot.demeter.data.repository.SchedulesLocalDataStore
 import com.fiwio.iot.demeter.discovery.NdsService
+import com.fiwio.iot.demeter.domain.core.executor.PostExecutionThread
 import com.fiwio.iot.demeter.domain.core.executor.ThreadExecutor
 import com.fiwio.iot.demeter.domain.features.configuration.ConfigurationProvider
 import com.fiwio.iot.demeter.domain.features.fsm.FsmGateway
 import com.fiwio.iot.demeter.domain.features.fsm.GardenFiniteStateMachine
 import com.fiwio.iot.demeter.domain.features.io.BranchesInteractorsProvider
+import com.fiwio.iot.demeter.domain.features.push.SendNotification
 import com.fiwio.iot.demeter.domain.features.schedule.TimeProvider
 import com.fiwio.iot.demeter.domain.features.tracking.EventTracker
 import com.fiwio.iot.demeter.domain.gateway.*
 import com.fiwio.iot.demeter.domain.model.io.Versions
 import com.fiwio.iot.demeter.domain.model.schedule.DayTime
 import com.fiwio.iot.demeter.domain.repository.SchedulesRepository
+import com.fiwio.iot.demeter.firebase.DemeterEventTracker
 import com.fiwio.iot.demeter.firebase.SendFirebaseData
 import com.fiwio.iot.demeter.fsm.DemeterConfigurationProvider
 import com.fiwio.iot.demeter.fsm.DemeterFsmGateway
@@ -66,6 +70,13 @@ open class ApplicationModule {
         return jobExecutor
     }
 
+    @Provides
+    internal fun providePostExecutionThread(uiThread: UiThread): PostExecutionThread {
+        return uiThread
+    }
+
+
+
     @Singleton
     @Provides
     fun providOkHttpClient(application: Application): OkHttpClient {
@@ -103,25 +114,8 @@ open class ApplicationModule {
 
     @Provides
     @Singleton
-    fun provideEventTracker(pushNotificationsGateway: PushNotificationsGateway): EventTracker {
-        return object : EventTracker {
-            override fun swimmerStatus(activated: Boolean) {
-                pushNotificationsGateway.sendPush("events", "SWIMM:" + if (activated) "ACTIVE" else "INACTIVE")
-            }
-
-            override fun trackAction(name: String, branch: String) {
-                pushNotificationsGateway.sendPush("events", "ACTION:$name:$branch")
-            }
-
-            override fun setValue(pinName: String, on: Boolean) {
-                pushNotificationsGateway.sendPush("events", "PIN:" + pinName + ":" + if (on) "ON" else "OFF")
-            }
-
-            override fun track(event: String) {
-                logger.debug { event }
-                pushNotificationsGateway.sendPush("events", event)
-            }
-        }
+    fun provideEventTracker(pushNotificationsGateway: PushNotificationsGateway, sendNotification: SendNotification): EventTracker {
+        return DemeterEventTracker(pushNotificationsGateway, sendNotification)
     }
 
     @Provides

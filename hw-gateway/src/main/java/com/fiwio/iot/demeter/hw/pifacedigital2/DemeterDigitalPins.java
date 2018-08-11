@@ -74,6 +74,10 @@ public class DemeterDigitalPins implements DigitalPins, InputEdgeCallback {
     @Override
     public void registerInputCallback(DigitalIoCallback callback) {
         this.callback = callback;
+
+        for (DigitalIO output : relays) {
+            ((DemeterRelay) output).registerInputCallback(callback);
+        }
     }
 
 

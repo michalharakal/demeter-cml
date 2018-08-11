@@ -2,12 +2,18 @@ package com.fiwio.iot.demeter.fsm
 
 import com.fiwio.iot.demeter.domain.features.fsm.FsmGateway
 import com.fiwio.iot.demeter.domain.features.fsm.GardenFiniteStateMachine
-import com.fiwio.iot.demeter.domain.model.fsm.StateMachine
-import com.fiwio.iot.demeter.domain.model.fsm.StateMachines
 import com.fiwio.iot.demeter.domain.features.io.DigitalIoCallback
 import com.fiwio.iot.demeter.domain.features.io.IOInteractor
+import com.fiwio.iot.demeter.domain.features.tracking.EventTracker
+import com.fiwio.iot.demeter.domain.model.fsm.StateMachine
+import com.fiwio.iot.demeter.domain.model.fsm.StateMachines
 
-class DemeterFsmGateway(val fsm: GardenFiniteStateMachine, val ioInteractor: IOInteractor) : FsmGateway, DigitalIoCallback {
+class DemeterFsmGateway(val fsm: GardenFiniteStateMachine, val ioInteractor: IOInteractor,
+                        val eventTracker: EventTracker) : FsmGateway, DigitalIoCallback {
+    override fun onActuatorSet(pinName: String, on: Boolean) {
+        eventTracker.setValue(pinName, on)
+    }
+
     override fun onFLoatSensorActivated() {
         var stopped = false
         if (!fsm.stopFillingBranches()) {

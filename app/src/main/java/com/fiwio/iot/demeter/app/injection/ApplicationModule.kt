@@ -105,6 +105,14 @@ open class ApplicationModule {
     @Singleton
     fun provideEventTracker(pushNotificationsGateway: PushNotificationsGateway): EventTracker {
         return object : EventTracker {
+            override fun trackAction(name: String, branch: String) {
+                pushNotificationsGateway.sendPush("events", "ACTION:$name:$branch")
+            }
+
+            override fun setValue(pinName: String, on: Boolean) {
+                pushNotificationsGateway.sendPush("events", "PIN:" + pinName + ":" + if (on) "ON" else "OFF")
+            }
+
             override fun track(event: String) {
                 logger.debug { event }
                 pushNotificationsGateway.sendPush("events", event)
@@ -141,8 +149,9 @@ open class ApplicationModule {
 
     @Provides
     @Singleton
-    fun provideFsmGateway(fsm: GardenFiniteStateMachine, branchesInteractorsProvider: BranchesInteractorsProvider): FsmGateway {
-        return DemeterFsmGateway(fsm, branchesInteractorsProvider.get(GardenFiniteStateMachine.BRANCH_GARDEN))
+    fun provideFsmGateway(fsm: GardenFiniteStateMachine, branchesInteractorsProvider: BranchesInteractorsProvider,
+                          eventTracker: EventTracker): FsmGateway {
+        return DemeterFsmGateway(fsm, branchesInteractorsProvider.get(GardenFiniteStateMachine.BRANCH_GARDEN), eventTracker)
     }
 
     @Provides

@@ -14,7 +14,8 @@ class EventsExecutionLoop(val eventsGateway: EventsGateway, val fsmGateway: FsmG
         val event = eventsGateway.getEvent(currentTime)
         event.actionEvents.map { action ->
             logger.debug { "executing $event" }
-            eventTracker.track("executing $event")
+            eventTracker.track("executing ${action.name}")
+            eventTracker.trackAction(action.name, action.branch)
             fsmGateway.fireEvent(action.branch, action.command)
         }
     }

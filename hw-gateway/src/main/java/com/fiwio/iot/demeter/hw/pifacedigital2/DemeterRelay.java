@@ -2,6 +2,8 @@ package com.fiwio.iot.demeter.hw.pifacedigital2;
 
 import android.util.Log;
 
+import com.fiwio.iot.demeter.domain.features.io.DigitalIoCallback;
+import com.fiwio.iot.demeter.domain.features.tracking.EventTracker;
 import com.fiwio.iot.demeter.hw.model.DigitalIO;
 import com.fiwio.iot.demeter.hw.model.DigitalIoType;
 import com.fiwio.iot.demeter.hw.model.DigitalValue;
@@ -18,6 +20,7 @@ public class DemeterRelay implements DigitalIO {
     private final String name;
     private final int relayIndex;
     private DigitalValue mLastValue;
+    private DigitalIoCallback callback;
 
     public DemeterRelay(final PiFaceDigital2 mPiFaceDigital2, final int relayIndex, String ioName) {
         this.name = ioName;
@@ -30,8 +33,14 @@ public class DemeterRelay implements DigitalIO {
     public void setValue(DigitalValue value) {
         mLastValue = value;
         mPiFaceDigital2.setLED(relayIndex, value == DigitalValue.ON ? true : false);
+        if (callback != null) {
+           callback.onActuatorSet(name, value == DigitalValue.ON ? true : false);
+        }
         Log.d(TAG, getName() + ((value == DigitalValue.ON) ? "ON" : "OFF"));
+    }
 
+    public void registerInputCallback(DigitalIoCallback callback) {
+        this.callback = callback;
     }
 
     @Override

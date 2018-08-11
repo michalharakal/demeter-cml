@@ -56,12 +56,12 @@ class GsonSchedulesCache(private val baseFolder: String, val gson: Gson) : Sched
 
     fun writeSchedule(actions: ActionEventsEntity) {
         synchronized(lock) {
-            writeList(getScheduleFullName(), actions)
+            writeJsonData(getScheduleFullName(), actions)
         }
     }
 
 
-    fun writeList(fileName: String, events: Any) {
+    fun writeJsonData(fileName: String, events: Any) {
         val sd = File(fileName)
         sd.createNewFile()
 

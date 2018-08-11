@@ -44,9 +44,9 @@ class GsonSchedulesCache(private val baseFolder: String, val gson: Gson) : Sched
                 ActionEventEntity("sklenik vecer", "greenhouse", "irrigate",
                         DayTimeEntity(19, 20, 0)),
                 ActionEventEntity("napousteni rano", "flowers", "fill",
-                        DayTimeEntity(8, 0, 0)),
+                        DayTimeEntity(8, 20, 0)),
                 ActionEventEntity("napousteni vecer", "flowers", "fill",
-                        DayTimeEntity(18, 53, 0)),
+                        DayTimeEntity(20, 0, 0)),
                 ActionEventEntity("kytky vecer", "flowers", "irrigate",
                         DayTimeEntity(19, 30, 0))
 

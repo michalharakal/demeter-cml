@@ -88,7 +88,7 @@ public class DemeterDigitalPins implements DigitalPins, InputEdgeCallback {
 
         try {
             if (callback != null) {
-                callback.onFLoatSensorStated(!sensorOff);
+                callback.onFLoatSensorStated(sensorOff);
             }
         } catch (Exception e) {
             // Nothing TODO

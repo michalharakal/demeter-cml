@@ -84,11 +84,9 @@ public class DemeterDigitalPins implements DigitalPins, InputEdgeCallback {
     @Override
     public boolean onGpioEdge(byte[] values) {
         boolean sensorOff = (floatBarrel.getValue() == DigitalValue.OFF);
-        if (sensorOff) {
-            Log.d(LOG_TAG, "triggered on value =" + ((floatBarrel.getValue() == DigitalValue.OFF) ? "OFF" : "ON"));
-            if (callback != null) {
-                callback.onFLoatSensorActivated();
-            }
+        Log.d(LOG_TAG, "triggered on value =" + ((floatBarrel.getValue() == DigitalValue.OFF) ? "OFF" : "ON"));
+        if (callback != null) {
+            callback.onFLoatSensorStated(!sensorOff);
         }
         sensorsSignaling.setValue((sensorOff) ? DigitalValue.ON : DigitalValue.OFF);
         return true;

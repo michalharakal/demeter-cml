@@ -10,25 +10,17 @@ import com.fiwio.iot.demeter.domain.model.fsm.StateMachines
 
 class DemeterFsmGateway(val fsm: GardenFiniteStateMachine, val ioInteractor: IOInteractor,
                         val eventTracker: EventTracker) : FsmGateway, DigitalIoCallback {
+    override fun onFLoatSensorStated(activated: Boolean) {
+        eventTracker.swimmerStatus(activated)
+        if (activated) {
+            if (!fsm.stopFillingBranches()) {
+                ioInteractor.barrelPumpOff()
+            }
+        }
+    }
+
     override fun onActuatorSet(pinName: String, on: Boolean) {
         eventTracker.setValue(pinName, on)
-    }
-
-    override fun onFLoatSensorActivated() {
-        var stopped = false
-        if (!fsm.stopFillingBranches()) {
-            ioInteractor.barrelPumpOff()
-        }
-    }
-
-    private fun isFilling(name: String): Boolean {
-        if (name == GardenFiniteStateMachine.States.BARREL_FILLING.name) {
-            return true
-        }
-        if (name == GardenFiniteStateMachine.States.BARREL_FILLING_OPENING.name) {
-            return true
-        }
-        return false
     }
 
     override fun fireEvent(branch: String, event: String): Boolean {

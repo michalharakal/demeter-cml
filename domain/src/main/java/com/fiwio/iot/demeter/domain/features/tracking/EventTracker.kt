@@ -4,4 +4,5 @@ interface EventTracker {
     fun track(event: String)
     fun setValue(pinName: String, on: Boolean)
     fun trackAction(name: String, branch: String)
+    fun swimmerStatus(activated: Boolean)
 }

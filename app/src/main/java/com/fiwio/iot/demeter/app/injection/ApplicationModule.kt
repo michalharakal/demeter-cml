@@ -105,6 +105,10 @@ open class ApplicationModule {
     @Singleton
     fun provideEventTracker(pushNotificationsGateway: PushNotificationsGateway): EventTracker {
         return object : EventTracker {
+            override fun swimmerStatus(activated: Boolean) {
+                pushNotificationsGateway.sendPush("events", "SWIMM:" + if (activated) "ACTIVE" else "INACTIVE")
+            }
+
             override fun trackAction(name: String, branch: String) {
                 pushNotificationsGateway.sendPush("events", "ACTION:$name:$branch")
             }
